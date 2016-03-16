@@ -1,0 +1,31 @@
+Partlist exported from c:/projects/eagle/BatteryTemp/BatteryTemp.sch at 12/20/2015 9:31 AM
+
+Qty Value                Device               Package              Parts            Description                                            DIGIKEY          MF        MPN         OC_FARNELL OC_NEWARK THERMISTOR
+1                        LEDCHIP-LED0603      CHIP-LED0603         LED3             LED                                                    475-1196-1-ND                                                         
+1                        LEDCHIP-LED0603      CHIP-LED0603         LED1             LED                                                    475-2506-1-ND                                                         
+1                        LEDCHIP-LED0603      CHIP-LED0603         LED2             LED                                                    475-2709-1-ND                                                         
+2   0                    R-US_R0603           R0603                R9, R10          RESISTOR, American symbol                                                                                                    
+2   0                    R-US_R0603           R0603                R1, R3           RESISTOR, American symbol                              P0.0GCT-ND                                                            
+1   100k                 R-US_R0603           R0603                R5               RESISTOR, American symbol                                                                                                    
+1   100k                 R-US_R0603           R0603                R4               RESISTOR, American symbol                              P100KGCT-ND                                                           
+3   100n                 C-USC0603            C0603                C4, C5, C7       CAPACITOR, American symbol                                                                                                   
+4   10k                  R-US_R0603           R0603                R2, R8, R11, R15 RESISTOR, American symbol                                                                                                    
+2   10k                  R-US_R0603           R0603                R6, R7           RESISTOR, American symbol                              P10KYCT-ND                                                            
+1   10n                  C-USC0603            C0603                C10              CAPACITOR, American symbol                             490-1512-1-ND                                                         
+3   10n                  C-USC0603            C0603                C1, C3, C6       CAPACITOR, American symbol                                                                                                   
+2   15p                  C-USC0603            C0603                C11, C12         CAPACITOR, American symbol                                                                                                   
+2   180                  R-US_R0603           R0603                R13, R14         RESISTOR, American symbol                                                                                                    
+1   180                  R-US_R0603           R0603                R12              RESISTOR, American symbol                              P180GCT-ND                                                            
+4   1u                   C-USC0603            C0603                C2, C8, C9, C13  CAPACITOR, American symbol                                                                                                   
+1   24LC64SN             24LC64SN             SO-08                IC3              Serial EEPROM                                                           MICROCHIP 24LC64-I/SN 9758070    12C2020             
+1   ABS07-32.768KHZ-T    ABS07-32.768KHZ-T    2-SMD                Q2               SMD-2 32.768 KHz Crystal                                                                                                     
+1   CR2032               SN2032               COIN_CELL            BAT1             LI BATTERY                                             BK-913-ND                                                             
+1   FDC606P              FDC606P              SOT-23-6             Q1                                                                      FDC606PCT-ND                                                          
+1   FTSH-105             FTSH-105             FTSH-105-01-XXX-DV-K J1                                                                      SAM1161-50-ND                                                         
+1   GND_LUG              GND_LUG              GND_PAD              T1                                                                                                                                            
+1   LD398533RM           LD398533RM           SOT23-5L             IC1              Ultra low drop and low noise BiCMOS voltage regulators 497-3504-1-ND                                                         
+1   MBR0530              CGRM4001-G           SOD-123_MINI-SMA     D1               Molded plasitc,JEDEC SOD-123/Mini SMA                  MBR0530TPMSCT-ND                                                      
+1   MINI-USB-UX60-MB-5ST MINI-USB-UX60-MB-5ST UX60-MB-5ST          X1               MINI USB Connector                                     H2959CT-ND                             unknown    unknown             
+2   PTS525SM10SMTR       PTS525SM10SMTR       PTS525SM10SMTR       B1, B2                                                                  CKN9104CT-ND                                                          
+1   Rt                   R-US_R0603           R0603                R16              RESISTOR, American symbol                              490-2436-1-ND                                                         
+1   STM32L052C8T         STM32L052C8T         LQFP48               IC2              ARM 32-bit Cortex™-M0+ CPU                             497-14903-ND                                                          

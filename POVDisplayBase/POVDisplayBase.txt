@@ -1,0 +1,30 @@
+Partlist exported from c:/projects/eagle/POVDisplayBase/POVDisplayBase.sch at 12/20/2015 11:35 AM
+
+Qty Value                Device               Package              Parts          Description                DIGIKEY          MF MPN OC_FARNELL OC_NEWARK
+1                        DIODE-DO-214AC       DO-214AC             D1             DIODE                      641-1707-1-ND                               
+1                        DIODE-SMC            SMC                  D3             DIODE                      S5KC-FDICT-ND                               
+1                        LEDCHIP-LED0603      CHIP-LED0603         LED2           LED                        475-2506-1-ND                               
+1                        LEDCHIPLED_1206      CHIPLED_1206         LED1           LED                        1080-1346-1-ND                              
+2                        M02                  02P                  SL1, SL2       AMP QUICK CONNECTOR                                unknown    unknown  
+2   0                    R-US_R0603           R0603                R1, R2         RESISTOR, American symbol  P0.0GCT-ND                                  
+1   10                   R-US_R0603           R0603                R4             RESISTOR, American symbol  P100KGCT-ND                                 
+1   10                   R-US_R0603           R0603                R10            RESISTOR, American symbol  P180GCT-ND                                  
+1   100k                 R-US_R0603           R0603                R6             RESISTOR, American symbol  P0.0GCT-ND                                  
+1   100k                 R-US_R0603           R0603                R3             RESISTOR, American symbol  P100KGCT-ND                                 
+4   100n                 C-USC0603            C0603                C2, C3, C4, C9 CAPACITOR, American symbol                                             
+1   10n                  C-USC0603            C0603                C7             CAPACITOR, American symbol 490-1512-1-ND                               
+2   10u                  C-USC0603            C0603                C1, C6         CAPACITOR, American symbol                                             
+1   120                  R-US_R0603           R0603                R7             RESISTOR, American symbol  P0.0GCT-ND                                  
+1   180                  R-US_R0603           R0603                R9             RESISTOR, American symbol  P180GCT-ND                                  
+2   1u                   C-USC0603            C0603                C5, C8         CAPACITOR, American symbol                                             
+1   2.3p                 C-USC1210            C1210                C10            CAPACITOR, American symbol                                             
+1   200                  R-US_R0603           R0603                R5             RESISTOR, American symbol  P0.0GCT-ND                                  
+1   200                  R-US_R0603           R0603                R8             RESISTOR, American symbol  P180GCT-ND                                  
+1   3                    R-US_R1210           R1210                R11            RESISTOR, American symbol                                              
+1   317EMP               317EMP               SOT223               IC1            Positive VOLTAGE REGULATOR 497-4241-1-ND                               
+1   FQD10N20L            FQD10N20L            TO252                Q2                                        FQD10N20LTMCT-ND                            
+1   FTSH-105             FTSH-105             FTSH-105-01-XXX-DV-K J1                                        SAM1161-50-ND                               
+1   MINI-USB-UX60-MB-5ST MINI-USB-UX60-MB-5ST UX60-MB-5ST          X1             MINI USB Connector         H2959CT-ND              unknown    unknown  
+2   SHORT                SHORT                SHORT                U$1, U$2                                                                              
+1   SSM3K329R            SSM3K329R            SOT23                Q1                                                                                    
+1   STM32L052C8T         STM32L052C8T         LQFP48               IC2            ARM 32-bit Cortex™-M0+ CPU 497-14903-ND                                
