@@ -20,7 +20,7 @@
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
@@ -68,14 +68,15 @@
 <hole x="4.7" y="24.7" drill="5"/>
 <hole x="75.3" y="24.7" drill="5"/>
 <circle x="72" y="1" radius="0.316225" width="0.254" layer="16"/>
-<text x="27.94" y="93.98" size="1.778" layer="25" font="vector" ratio="15">POVDisplayBaseV1
-Nick Butts 2015</text>
-<text x="7" y="6.2" size="0.8128" layer="25" font="vector" ratio="15">FAN+</text>
-<text x="1.1" y="2.8" size="0.8128" layer="25" font="vector" ratio="15">GND</text>
-<text x="10.1" y="0.2" size="0.8128" layer="25" font="vector" ratio="15">FAN ON     OFF</text>
-<text x="23.7" y="0.3" size="0.8128" layer="25" font="vector" ratio="15">FREQ INT    EXT</text>
+<text x="27.94" y="93.98" size="1.778" layer="25" font="vector" ratio="15">POVDisplayBaseV2
+Nick Butts 2016</text>
+<text x="6" y="6" size="0.8128" layer="25" font="vector" ratio="15">FAN+</text>
+<text x="3" y="6" size="0.8128" layer="25" font="vector" ratio="15">GND</text>
+<text x="11" y="6.9" size="0.8128" layer="25" font="vector" ratio="15">FAN ON     OFF</text>
+<text x="23.9" y="6.7" size="0.8128" layer="25" font="vector" ratio="15">FREQ INT    EXT</text>
 <text x="37.1" y="3.4" size="0.8128" layer="25" font="vector" ratio="15">GND</text>
-<text x="41.9" y="8.4" size="0.8128" layer="25" font="vector" ratio="15">EXT FREQ</text>
+<text x="42.1" y="7.5" size="0.8128" layer="25" font="vector" ratio="15">EXT FREQ</text>
+<wire x1="45" y1="7" x2="44" y2="6" width="0.6096" layer="25"/>
 </plain>
 <libraries>
 <library name="resistor">
@@ -1544,7 +1545,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="LaenPCBOrder">
+<designrules name="oshpark-2layer">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -1604,8 +1605,8 @@ Please make sure your boards conform to these design rules.</description>
 <param name="psElongationOffset" value="100"/>
 <param name="mvStopFrame" value="1"/>
 <param name="mvCreamFrame" value="0"/>
-<param name="mlMinStopFrame" value="3mil"/>
-<param name="mlMaxStopFrame" value="3mil"/>
+<param name="mlMinStopFrame" value="4mil"/>
+<param name="mlMaxStopFrame" value="4mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
 <param name="mlViaStopLimit" value="0mil"/>
@@ -1749,7 +1750,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="OC_NEWARK" value="unknown" x="5.73" y="3" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="MPN" value="" x="5.73" y="3" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="MF" value="" x="5.73" y="3" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="NAME" x="3.444" y="5.9464" size="1" layer="25" ratio="10"/>
+<attribute name="NAME" x="3.444" y="5.9464" size="1" layer="25" ratio="10" display="off"/>
 <attribute name="VALUE" x="3.444" y="-0.8354" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="R11" library="resistor" package="R1210" value="3" x="18" y="15" smashed="yes">
@@ -1767,7 +1768,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="23.541" y="10.371" size="1.27" layer="27"/>
 </element>
 <element name="C10" library="resistor" package="C1210" value="2.3p" x="3" y="56" smashed="yes" rot="R90">
-<attribute name="NAME" x="3.635" y="59.175" size="1" layer="25" rot="R90"/>
+<attribute name="NAME" x="5.735" y="54.675" size="1" layer="25" rot="R90"/>
 <attribute name="VALUE" x="6.175" y="59.175" size="1" layer="27" rot="R90"/>
 </element>
 <element name="J1" library="con-jack" package="DCJ0202" value="DCJ0202" x="71.12" y="10.16">
@@ -1796,19 +1797,21 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="S1" library="switch" package="TL3XYO" value="TL36YO" x="16.51" y="3.81" smashed="yes" rot="R180">
 <attribute name="DIGIKEY" value="450-1603-ND" x="16.51" y="3.81" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="24.59" y="8.635" size="1.778" layer="25" rot="R180"/>
+<attribute name="NAME" x="24.59" y="8.635" size="1.778" layer="25" rot="R180" display="off"/>
 <attribute name="VALUE" x="21.59" y="8.89" size="1.778" layer="27" rot="R180"/>
 </element>
 <element name="S2" library="switch" package="TL3XYO" value="TL36YO" x="30.48" y="3.81" smashed="yes" rot="R180">
 <attribute name="DIGIKEY" value="450-1603-ND" x="30.48" y="3.81" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
-<attribute name="NAME" x="38.56" y="7.635" size="1.778" layer="25" rot="R180"/>
+<attribute name="NAME" x="38.56" y="7.635" size="1.778" layer="25" rot="R180" display="off"/>
 <attribute name="VALUE" x="35.56" y="8.89" size="1.778" layer="27" rot="R180"/>
 </element>
-<element name="SL1" library="con-amp-quick" package="02P" value="" x="41.91" y="3.81">
+<element name="SL1" library="con-amp-quick" package="02P" value="" x="41.91" y="3.81" smashed="yes">
 <attribute name="OC_NEWARK" value="unknown" x="41.91" y="3.81" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="41.91" y="3.81" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="MPN" value="" x="41.91" y="3.81" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="MF" value="" x="41.91" y="3.81" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="NAME" x="39.624" y="6.7564" size="1.27" layer="25" ratio="10" display="off"/>
+<attribute name="VALUE" x="39.624" y="-0.0254" size="1.27" layer="27" ratio="10"/>
 </element>
 </elements>
 <signals>
