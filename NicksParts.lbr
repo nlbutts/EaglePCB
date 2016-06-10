@@ -6,19 +6,19 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -1331,6 +1331,70 @@ TS-003</description>
 <smd name="P$67" x="2.8" y="-8" dx="0.2" dy="0.8" layer="1" rot="R180"/>
 <smd name="P$68" x="3.2" y="-8" dx="0.2" dy="0.8" layer="1" rot="R180"/>
 </package>
+<package name="CY8CKIT-059">
+<pad name="13" x="-10.16" y="0" drill="1.016" shape="long"/>
+<pad name="12" x="-10.16" y="2.54" drill="1.016" shape="long"/>
+<pad name="11" x="-10.16" y="5.08" drill="1.016" shape="long"/>
+<pad name="10" x="-10.16" y="7.62" drill="1.016" shape="long"/>
+<pad name="9" x="-10.16" y="10.16" drill="1.016" shape="long"/>
+<pad name="8" x="-10.16" y="12.7" drill="1.016" shape="long"/>
+<pad name="14" x="-10.16" y="-2.54" drill="1.016" shape="long"/>
+<pad name="15" x="-10.16" y="-5.08" drill="1.016" shape="long"/>
+<pad name="16" x="-10.16" y="-7.62" drill="1.016" shape="long"/>
+<pad name="17" x="-10.16" y="-10.16" drill="1.016" shape="long"/>
+<pad name="18" x="-10.16" y="-12.7" drill="1.016" shape="long"/>
+<pad name="19" x="-10.16" y="-15.24" drill="1.016" shape="long"/>
+<pad name="20" x="-10.16" y="-17.78" drill="1.016" shape="long"/>
+<pad name="21" x="-10.16" y="-20.32" drill="1.016" shape="long"/>
+<pad name="22" x="-10.16" y="-22.86" drill="1.016" shape="long"/>
+<pad name="23" x="-10.16" y="-25.4" drill="1.016" shape="long"/>
+<pad name="24" x="-10.16" y="-27.94" drill="1.016" shape="long"/>
+<pad name="25" x="-10.16" y="-30.48" drill="1.016" shape="long"/>
+<pad name="26" x="-10.16" y="-33.02" drill="1.016" shape="long"/>
+<pad name="7" x="-10.16" y="15.24" drill="1.016" shape="long"/>
+<pad name="6" x="-10.16" y="17.78" drill="1.016" shape="long"/>
+<pad name="5" x="-10.16" y="20.32" drill="1.016" shape="long"/>
+<pad name="4" x="-10.16" y="22.86" drill="1.016" shape="long"/>
+<pad name="3" x="-10.16" y="25.4" drill="1.016" shape="long"/>
+<pad name="2" x="-10.16" y="27.94" drill="1.016" shape="long"/>
+<pad name="1" x="-10.16" y="30.48" drill="1.016" shape="long"/>
+<pad name="39" x="10.16" y="0" drill="1.016" shape="long"/>
+<pad name="38" x="10.16" y="2.54" drill="1.016" shape="long"/>
+<pad name="37" x="10.16" y="5.08" drill="1.016" shape="long"/>
+<pad name="36" x="10.16" y="7.62" drill="1.016" shape="long"/>
+<pad name="35" x="10.16" y="10.16" drill="1.016" shape="long"/>
+<pad name="34" x="10.16" y="12.7" drill="1.016" shape="long"/>
+<pad name="40" x="10.16" y="-2.54" drill="1.016" shape="long"/>
+<pad name="41" x="10.16" y="-5.08" drill="1.016" shape="long"/>
+<pad name="42" x="10.16" y="-7.62" drill="1.016" shape="long"/>
+<pad name="43" x="10.16" y="-10.16" drill="1.016" shape="long"/>
+<pad name="44" x="10.16" y="-12.7" drill="1.016" shape="long"/>
+<pad name="45" x="10.16" y="-15.24" drill="1.016" shape="long"/>
+<pad name="46" x="10.16" y="-17.78" drill="1.016" shape="long"/>
+<pad name="47" x="10.16" y="-20.32" drill="1.016" shape="long"/>
+<pad name="48" x="10.16" y="-22.86" drill="1.016" shape="long"/>
+<pad name="49" x="10.16" y="-25.4" drill="1.016" shape="long"/>
+<pad name="50" x="10.16" y="-27.94" drill="1.016" shape="long"/>
+<pad name="51" x="10.16" y="-30.48" drill="1.016" shape="long"/>
+<pad name="52" x="10.16" y="-33.02" drill="1.016" shape="long"/>
+<pad name="33" x="10.16" y="15.24" drill="1.016" shape="long"/>
+<pad name="32" x="10.16" y="17.78" drill="1.016" shape="long"/>
+<pad name="31" x="10.16" y="20.32" drill="1.016" shape="long"/>
+<pad name="30" x="10.16" y="22.86" drill="1.016" shape="long"/>
+<pad name="29" x="10.16" y="25.4" drill="1.016" shape="long"/>
+<pad name="28" x="10.16" y="27.94" drill="1.016" shape="long"/>
+<pad name="27" x="10.16" y="30.48" drill="1.016" shape="long"/>
+<wire x1="-12.7" y1="31.75" x2="12.7" y2="31.75" width="0.127" layer="21"/>
+<wire x1="12.7" y1="31.75" x2="12.7" y2="-34.29" width="0.127" layer="21"/>
+<wire x1="12.7" y1="-34.29" x2="-12.7" y2="-34.29" width="0.127" layer="21"/>
+<wire x1="-12.7" y1="-34.29" x2="-12.7" y2="31.75" width="0.127" layer="21"/>
+<text x="-7.62" y="30.48" size="1.27" layer="25">1</text>
+<text x="-7.62" y="-33.02" size="1.27" layer="25">26</text>
+<text x="6.35" y="30.48" size="1.27" layer="25">27</text>
+<text x="6.35" y="-33.02" size="1.27" layer="25">52</text>
+<text x="-3.81" y="33.02" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-36.83" size="1.27" layer="25">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="AR0331">
@@ -2053,6 +2117,66 @@ TS-003</description>
 <wire x1="-27.94" y1="43.18" x2="-27.94" y2="-45.72" width="0.254" layer="94"/>
 <text x="-2.54" y="1.27" size="1.778" layer="95">&gt;NAME</text>
 <text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="CY8CKIT-059">
+<pin name="P2_0" x="-17.78" y="30.48" length="middle"/>
+<pin name="P2_1" x="-17.78" y="27.94" length="middle"/>
+<pin name="P2_2" x="-17.78" y="25.4" length="middle"/>
+<pin name="P2_3" x="-17.78" y="22.86" length="middle"/>
+<pin name="P2_4" x="-17.78" y="20.32" length="middle"/>
+<pin name="P2_5" x="-17.78" y="17.78" length="middle"/>
+<pin name="P2_6" x="-17.78" y="15.24" length="middle"/>
+<pin name="P2_7" x="-17.78" y="12.7" length="middle"/>
+<pin name="P12_7" x="-17.78" y="10.16" length="middle"/>
+<pin name="P12_6" x="-17.78" y="7.62" length="middle"/>
+<pin name="P12_5" x="-17.78" y="5.08" length="middle"/>
+<pin name="P12_4" x="-17.78" y="2.54" length="middle"/>
+<pin name="P12_3" x="-17.78" y="0" length="middle"/>
+<pin name="P12_2" x="-17.78" y="-2.54" length="middle"/>
+<pin name="P12_1" x="-17.78" y="-5.08" length="middle"/>
+<pin name="P12_0" x="-17.78" y="-7.62" length="middle"/>
+<pin name="P1_0" x="-17.78" y="-10.16" length="middle"/>
+<pin name="P1_1" x="-17.78" y="-12.7" length="middle"/>
+<pin name="P1_2" x="-17.78" y="-15.24" length="middle"/>
+<pin name="P1_3" x="-17.78" y="-17.78" length="middle"/>
+<pin name="P1_4" x="-17.78" y="-20.32" length="middle"/>
+<pin name="P1_5" x="-17.78" y="-22.86" length="middle"/>
+<pin name="P1_6" x="-17.78" y="-25.4" length="middle"/>
+<pin name="P1_7" x="-17.78" y="-27.94" length="middle"/>
+<pin name="GND1" x="-17.78" y="-30.48" length="middle" direction="pwr"/>
+<pin name="VDDIO" x="-17.78" y="-33.02" length="middle" direction="pwr"/>
+<pin name="VDD" x="17.78" y="30.48" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND2" x="17.78" y="27.94" length="middle" direction="pwr" rot="R180"/>
+<pin name="P_XRES" x="17.78" y="25.4" length="middle" rot="R180"/>
+<pin name="P0_7" x="17.78" y="22.86" length="middle" rot="R180"/>
+<pin name="P0_6" x="17.78" y="20.32" length="middle" rot="R180"/>
+<pin name="P0_5" x="17.78" y="17.78" length="middle" rot="R180"/>
+<pin name="P0_4" x="17.78" y="15.24" length="middle" rot="R180"/>
+<pin name="P0_3" x="17.78" y="12.7" length="middle" rot="R180"/>
+<pin name="P0_2" x="17.78" y="10.16" length="middle" rot="R180"/>
+<pin name="P0_1" x="17.78" y="7.62" length="middle" rot="R180"/>
+<pin name="P0_0" x="17.78" y="5.08" length="middle" rot="R180"/>
+<pin name="P15_5" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="P15_4" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="P15_3" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="P15_2" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="P15_1" x="17.78" y="-7.62" length="middle" rot="R180"/>
+<pin name="P15_0" x="17.78" y="-10.16" length="middle" rot="R180"/>
+<pin name="P3_7" x="17.78" y="-12.7" length="middle" rot="R180"/>
+<pin name="P3_6" x="17.78" y="-15.24" length="middle" rot="R180"/>
+<pin name="P3_5" x="17.78" y="-17.78" length="middle" rot="R180"/>
+<pin name="P3_4" x="17.78" y="-20.32" length="middle" rot="R180"/>
+<pin name="P3_3" x="17.78" y="-22.86" length="middle" rot="R180"/>
+<pin name="P3_2" x="17.78" y="-25.4" length="middle" rot="R180"/>
+<pin name="P3_1" x="17.78" y="-27.94" length="middle" rot="R180"/>
+<pin name="P3_0" x="17.78" y="-30.48" length="middle" rot="R180"/>
+<pin name="GND3" x="17.78" y="-33.02" length="middle" rot="R180"/>
+<wire x1="-15.24" y1="33.02" x2="15.24" y2="33.02" width="0.254" layer="94"/>
+<wire x1="15.24" y1="33.02" x2="15.24" y2="-35.56" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-35.56" x2="-15.24" y2="-35.56" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-35.56" x2="-15.24" y2="33.02" width="0.254" layer="94"/>
+<text x="-12.7" y="35.56" size="1.27" layer="95">&gt;NAME</text>
+<text x="-12.7" y="-38.1" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -2882,9 +3006,9 @@ Source: www.ecsxtal.com .. Crystal 3.6864MHz CSM_7X_DU.PDF</description>
 <devices>
 <device name="" package="TO252">
 <connects>
-<connect gate="G$1" pin="D" pad="2"/>
+<connect gate="G$1" pin="D" pad="3"/>
 <connect gate="G$1" pin="G" pad="1"/>
-<connect gate="G$1" pin="S" pad="3"/>
+<connect gate="G$1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2917,6 +3041,72 @@ Source: CY8C58LPXXX_QFN68_USB_4JTAG.bsdl</description>
 </gates>
 <devices>
 <device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CY*CKIT-059">
+<gates>
+<gate name="G$1" symbol="CY8CKIT-059" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CY8CKIT-059">
+<connects>
+<connect gate="G$1" pin="GND1" pad="25"/>
+<connect gate="G$1" pin="GND2" pad="28"/>
+<connect gate="G$1" pin="GND3" pad="52"/>
+<connect gate="G$1" pin="P0_0" pad="37"/>
+<connect gate="G$1" pin="P0_1" pad="36"/>
+<connect gate="G$1" pin="P0_2" pad="35"/>
+<connect gate="G$1" pin="P0_3" pad="34"/>
+<connect gate="G$1" pin="P0_4" pad="33"/>
+<connect gate="G$1" pin="P0_5" pad="32"/>
+<connect gate="G$1" pin="P0_6" pad="31"/>
+<connect gate="G$1" pin="P0_7" pad="30"/>
+<connect gate="G$1" pin="P12_0" pad="16"/>
+<connect gate="G$1" pin="P12_1" pad="15"/>
+<connect gate="G$1" pin="P12_2" pad="14"/>
+<connect gate="G$1" pin="P12_3" pad="13"/>
+<connect gate="G$1" pin="P12_4" pad="12"/>
+<connect gate="G$1" pin="P12_5" pad="11"/>
+<connect gate="G$1" pin="P12_6" pad="10"/>
+<connect gate="G$1" pin="P12_7" pad="9"/>
+<connect gate="G$1" pin="P15_0" pad="43"/>
+<connect gate="G$1" pin="P15_1" pad="42"/>
+<connect gate="G$1" pin="P15_2" pad="41"/>
+<connect gate="G$1" pin="P15_3" pad="40"/>
+<connect gate="G$1" pin="P15_4" pad="39"/>
+<connect gate="G$1" pin="P15_5" pad="38"/>
+<connect gate="G$1" pin="P1_0" pad="17"/>
+<connect gate="G$1" pin="P1_1" pad="18"/>
+<connect gate="G$1" pin="P1_2" pad="19"/>
+<connect gate="G$1" pin="P1_3" pad="20"/>
+<connect gate="G$1" pin="P1_4" pad="21"/>
+<connect gate="G$1" pin="P1_5" pad="22"/>
+<connect gate="G$1" pin="P1_6" pad="23"/>
+<connect gate="G$1" pin="P1_7" pad="24"/>
+<connect gate="G$1" pin="P2_0" pad="1"/>
+<connect gate="G$1" pin="P2_1" pad="2"/>
+<connect gate="G$1" pin="P2_2" pad="3"/>
+<connect gate="G$1" pin="P2_3" pad="4"/>
+<connect gate="G$1" pin="P2_4" pad="5"/>
+<connect gate="G$1" pin="P2_5" pad="6"/>
+<connect gate="G$1" pin="P2_6" pad="7"/>
+<connect gate="G$1" pin="P2_7" pad="8"/>
+<connect gate="G$1" pin="P3_0" pad="51"/>
+<connect gate="G$1" pin="P3_1" pad="50"/>
+<connect gate="G$1" pin="P3_2" pad="49"/>
+<connect gate="G$1" pin="P3_3" pad="48"/>
+<connect gate="G$1" pin="P3_4" pad="47"/>
+<connect gate="G$1" pin="P3_5" pad="46"/>
+<connect gate="G$1" pin="P3_6" pad="45"/>
+<connect gate="G$1" pin="P3_7" pad="44"/>
+<connect gate="G$1" pin="P_XRES" pad="29"/>
+<connect gate="G$1" pin="VDD" pad="27"/>
+<connect gate="G$1" pin="VDDIO" pad="26"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
