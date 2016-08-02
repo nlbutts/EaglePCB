@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -12015,7 +12015,9 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 </classes>
 <parts>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="L1" library="docu-dummy" deviceset="L" device=""/>
+<part name="L1" library="docu-dummy" deviceset="L" device="">
+<attribute name="INDUCTANCE" value="36.2uH"/>
+</part>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="D1" library="diode" deviceset="DIODE-" device="DO-214AC">
 <attribute name="DIGIKEY" value="641-1707-1-ND"/>
@@ -12082,7 +12084,9 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 </plain>
 <instances>
 <instance part="GND8" gate="1" x="300.99" y="101.6"/>
-<instance part="L1" gate="G$1" x="293.37" y="134.62"/>
+<instance part="L1" gate="G$1" x="293.37" y="134.62">
+<attribute name="INDUCTANCE" x="293.37" y="134.62" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND7" gate="1" x="265.43" y="152.4"/>
 <instance part="D1" gate="G$1" x="212.09" y="157.48">
 <attribute name="DIGIKEY" x="212.09" y="157.48" size="1.778" layer="96" display="off"/>
