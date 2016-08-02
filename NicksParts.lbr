@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
@@ -1511,6 +1511,8 @@ Source: http://document.sharpsma.com/files/GM1WA55311A_SS.pdf</description>
 <text x="15.24" y="-33.02" size="1.27" layer="21">52</text>
 <text x="-2.54" y="30.48" size="1.27" layer="25">&gt;NAME</text>
 </package>
+<package name="CY8CKIT-142">
+</package>
 </packages>
 <symbols>
 <symbol name="AR0331">
@@ -2387,6 +2389,64 @@ Source: http://document.sharpsma.com/files/GM1WA55311A_SS.pdf</description>
 <vertex x="-2.667" y="-1.651"/>
 <vertex x="-3.175" y="-1.143"/>
 </polygon>
+</symbol>
+<symbol name="CY8CKIT-142">
+<pin name="P3.6" x="-45.72" y="12.7" length="middle"/>
+<pin name="P3.4" x="-45.72" y="10.16" length="middle"/>
+<pin name="P3.2" x="-45.72" y="7.62" length="middle"/>
+<pin name="P3.0" x="-45.72" y="5.08" length="middle"/>
+<pin name="P4.0" x="-45.72" y="2.54" length="middle"/>
+<pin name="P4.1" x="-45.72" y="0" length="middle"/>
+<pin name="P2.6" x="-45.72" y="-2.54" length="middle"/>
+<pin name="P2.4" x="-45.72" y="-5.08" length="middle"/>
+<pin name="P2.2" x="-45.72" y="-7.62" length="middle"/>
+<pin name="P2.0" x="-45.72" y="-10.16" length="middle"/>
+<pin name="GND1" x="-45.72" y="15.24" length="middle" direction="pwr"/>
+<pin name="VDDR" x="-45.72" y="-12.7" length="middle" direction="pwr"/>
+<pin name="VDDA" x="-10.16" y="15.24" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND2" x="-10.16" y="-12.7" length="middle" direction="pwr" rot="R180"/>
+<pin name="P3.7" x="-10.16" y="12.7" length="middle" rot="R180"/>
+<pin name="P3.5" x="-10.16" y="10.16" length="middle" rot="R180"/>
+<pin name="P3.3" x="-10.16" y="7.62" length="middle" rot="R180"/>
+<pin name="P3.1" x="-10.16" y="5.08" length="middle" rot="R180"/>
+<pin name="P5.1" x="-10.16" y="2.54" length="middle" rot="R180"/>
+<pin name="P2.7" x="-10.16" y="-2.54" length="middle" rot="R180"/>
+<pin name="P2.5" x="-10.16" y="-5.08" length="middle" rot="R180"/>
+<pin name="P2.3" x="-10.16" y="-7.62" length="middle" rot="R180"/>
+<pin name="P2.1" x="-10.16" y="-10.16" length="middle" rot="R180"/>
+<wire x1="-43.18" y1="17.78" x2="-12.7" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="17.78" x2="-12.7" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-15.24" x2="-43.18" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-43.18" y1="-15.24" x2="-43.18" y2="17.78" width="0.254" layer="94"/>
+<text x="-35.56" y="20.32" size="1.27" layer="95">&gt;NAME</text>
+<text x="-35.56" y="-17.78" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="P5.0" x="-10.16" y="0" length="middle" rot="R180"/>
+<pin name="P1.6" x="10.16" y="12.7" length="middle"/>
+<pin name="P1.7" x="10.16" y="10.16" length="middle"/>
+<pin name="P1.5" x="10.16" y="7.62" length="middle"/>
+<pin name="P1.3" x="10.16" y="5.08" length="middle"/>
+<pin name="P1.4" x="10.16" y="2.54" length="middle"/>
+<pin name="P1.1" x="10.16" y="0" length="middle"/>
+<pin name="P0.4" x="10.16" y="-5.08" length="middle"/>
+<pin name="P0.2" x="10.16" y="-7.62" length="middle"/>
+<pin name="P0.0" x="10.16" y="-10.16" length="middle"/>
+<pin name="VDDD" x="45.72" y="12.7" length="middle" direction="pwr" rot="R180"/>
+<pin name="TP5" x="45.72" y="10.16" length="middle" rot="R180"/>
+<pin name="XRES" x="45.72" y="7.62" length="middle" rot="R180"/>
+<pin name="P0.7" x="45.72" y="5.08" length="middle" rot="R180"/>
+<pin name="P0.6" x="45.72" y="2.54" length="middle" rot="R180"/>
+<pin name="P1.2" x="45.72" y="0" length="middle" rot="R180"/>
+<pin name="P0.5" x="45.72" y="-5.08" length="middle" rot="R180"/>
+<pin name="P0.3" x="45.72" y="-7.62" length="middle" rot="R180"/>
+<pin name="P0.1" x="45.72" y="-10.16" length="middle" rot="R180"/>
+<wire x1="12.7" y1="17.78" x2="43.18" y2="17.78" width="0.254" layer="94"/>
+<wire x1="43.18" y1="17.78" x2="43.18" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="43.18" y1="-15.24" x2="12.7" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-15.24" x2="12.7" y2="17.78" width="0.254" layer="94"/>
+<text x="20.32" y="20.32" size="1.27" layer="95">&gt;NAME</text>
+<text x="20.32" y="-17.78" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="P1.0" x="45.72" y="-2.54" length="middle" rot="R180"/>
+<pin name="VREF" x="10.16" y="-2.54" length="middle" direction="pwr"/>
 </symbol>
 </symbols>
 <devicesets>
