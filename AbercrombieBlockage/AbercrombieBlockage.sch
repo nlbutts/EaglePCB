@@ -7323,12 +7323,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="P+5" library="supply1" deviceset="VCC" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="TP1" library="testpad" deviceset="TP" device="B1,27"/>
-<part name="TP2" library="testpad" deviceset="TP" device="B1,27"/>
 <part name="R5" library="resistor" deviceset="R-US_" device="R0603" value="DNP"/>
 <part name="R6" library="resistor" deviceset="R-US_" device="R0603" value="DNP"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="SV3" library="con-lstb" deviceset="MA05-1" device=""/>
 <part name="U1" library="NicksParts" deviceset="CY8CKIT-142" device=""/>
+<part name="TP2" library="testpad" deviceset="TP" device="B1,27"/>
 </parts>
 <sheets>
 <sheet>
@@ -7389,12 +7389,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="P+5" gate="VCC" x="251.46" y="68.58"/>
 <instance part="GND8" gate="1" x="251.46" y="43.18"/>
 <instance part="TP1" gate="G$1" x="96.52" y="63.5"/>
-<instance part="TP2" gate="G$1" x="210.82" y="106.68"/>
 <instance part="R5" gate="G$1" x="111.76" y="60.96" rot="R270"/>
 <instance part="R6" gate="G$1" x="111.76" y="48.26" rot="R270"/>
 <instance part="GND9" gate="1" x="111.76" y="38.1"/>
 <instance part="SV3" gate="G$1" x="213.36" y="15.24"/>
 <instance part="U1" gate="G$1" x="215.9" y="101.6"/>
+<instance part="TP2" gate="G$1" x="210.82" y="106.68"/>
 </instances>
 <busses>
 </busses>
@@ -7578,9 +7578,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="-2.54" y="15.24" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="5.0"/>
-<wire x1="269.24" y1="99.06" x2="279.4" y2="99.06" width="0.1524" layer="91"/>
-<label x="271.78" y="99.06" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="4.1"/>
+<wire x1="233.68" y1="99.06" x2="223.52" y2="99.06" width="0.1524" layer="91"/>
+<label x="223.52" y="99.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LED2" class="0">
@@ -7590,9 +7590,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="20.32" y="15.24" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="5.1"/>
-<wire x1="269.24" y1="101.6" x2="279.4" y2="101.6" width="0.1524" layer="91"/>
-<label x="271.78" y="101.6" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="4.0"/>
+<wire x1="233.68" y1="101.6" x2="223.52" y2="101.6" width="0.1524" layer="91"/>
+<label x="223.52" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LED3" class="0">
@@ -7724,6 +7724,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <segment>
 <pinref part="U1" gate="G$1" pin="VDDA"/>
 <wire x1="269.24" y1="114.3" x2="279.4" y2="114.3" width="0.1524" layer="91"/>
+<label x="271.78" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="OPAMP_OUT" class="0">
@@ -7848,12 +7849,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="198.12" y="106.68" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="VREF" class="0">
-<segment>
-<wire x1="195.58" y1="104.14" x2="210.82" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="TP2" gate="G$1" pin="TP"/>
-</segment>
-</net>
 <net name="XRES" class="0">
 <segment>
 <pinref part="SV3" gate="G$1" pin="3"/>
@@ -7905,9 +7900,31 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="149.86" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="TP2" gate="G$1" pin="TP"/>
+<pinref part="U1" gate="G$1" pin="VREF"/>
+<wire x1="210.82" y1="104.14" x2="195.58" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="102,1,7.62,91.44,V+,VBATT,,,,"/>
+<approved hash="104,1,81.28,86.36,U6,IN,VBATT,,,"/>
+<approved hash="104,1,106.68,86.36,U6,OUT,N$7,,,"/>
+<approved hash="104,1,106.68,76.2,U6,ADJ,N$10,,,"/>
+<approved hash="104,1,233.68,114.3,U1,GND1,GND,,,"/>
+<approved hash="104,1,233.68,86.36,U1,VDDR,VCC,,,"/>
+<approved hash="104,1,269.24,114.3,U1,VDDA,VCC,,,"/>
+<approved hash="104,1,269.24,86.36,U1,GND2,GND,,,"/>
+<approved hash="104,1,160.02,88.9,U1,VDDD,VCC,,,"/>
+<approved hash="111,1,245.11,50.8,GND,,,,,"/>
+<approved hash="113,1,-5.12233,85.2847,SV1,,,,,"/>
+<approved hash="113,1,101.558,100.525,SV2,,,,,"/>
+<approved hash="113,1,218.398,16.7047,SV3,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
