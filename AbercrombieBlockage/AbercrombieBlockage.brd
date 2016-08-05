@@ -1785,7 +1785,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="U6" library="NicksParts" package="SOT23-5" value="LDK130M-R" x="8" y="36" smashed="yes">
 <attribute name="DIGIKEY" value="497-14824-1-ND" x="8" y="36" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="7.415" y="38.19" size="1.016" layer="25"/>
-<attribute name="VALUE" x="7.515" y="33.71" size="0.3048" layer="25"/>
+<attribute name="VALUE" x="7.515" y="33.71" size="0.3048" layer="27"/>
 </element>
 <element name="U1" library="NicksParts" package="CY8CKIT-142" value="CY8CKIT-142" x="29" y="30" rot="R270"/>
 <element name="TP2" library="testpad" package="B1,27" value="TPB1,27" x="33" y="50" smashed="yes">
