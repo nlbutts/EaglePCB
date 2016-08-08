@@ -7271,10 +7271,15 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <parts>
 <part name="LED1" library="led" deviceset="*_T679-?-1" device="E1F1" technology="LG">
 <attribute name="DIGIKEY" value="VSMY3850-GS08CT-ND"/>
+<attribute name="DIGIKEY2" value="VSMY2850GCT-ND"/>
 </part>
 <part name="C1" library="resistor" deviceset="C-US" device="C1210" value="100u"/>
 <part name="C2" library="resistor" deviceset="C-US" device="C1210" value="1u"/>
-<part name="R1" library="resistor" deviceset="R-US_" device="R2010" value="15"/>
+<part name="R1" library="resistor" deviceset="R-US_" device="R2010" value="15">
+<attribute name="DIGIKEY_100_OHM" value="YAG3381CT-ND"/>
+<attribute name="DIGIKEY_30_OHM" value="RHM30BGCT-ND"/>
+<attribute name="DIGIKEY_50_OHM" value="541-2477-1-ND"/>
+</part>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
 <part name="LED2" library="led" deviceset="*_T679-?-1" device="E1F1" technology="LG">
 <attribute name="DIGIKEY" value="VSMY3850-GS08CT-ND"/>
@@ -7337,10 +7342,15 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instances>
 <instance part="LED1" gate="G$1" x="20.32" y="40.64">
 <attribute name="DIGIKEY" x="20.32" y="40.64" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY2" x="20.32" y="40.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C1" gate="G$1" x="43.18" y="81.28"/>
 <instance part="C2" gate="G$1" x="50.8" y="81.28"/>
-<instance part="R1" gate="G$1" x="20.32" y="60.96" rot="R90"/>
+<instance part="R1" gate="G$1" x="20.32" y="60.96" rot="R90">
+<attribute name="DIGIKEY_100_OHM" x="20.32" y="60.96" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIGIKEY_30_OHM" x="20.32" y="60.96" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIGIKEY_50_OHM" x="20.32" y="60.96" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="P+1" gate="VCC" x="124.46" y="111.76"/>
 <instance part="LED2" gate="G$1" x="30.48" y="40.64">
 <attribute name="DIGIKEY" x="30.48" y="40.64" size="1.778" layer="96" display="off"/>
