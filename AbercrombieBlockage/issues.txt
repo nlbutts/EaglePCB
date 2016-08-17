@@ -6,3 +6,4 @@ Pick better pins so the SPI hard peripheral can be used.
 The CS for the EEPROM is on the Transmit line of the board
 Status LED would be nice
 Must short P4.1 to P2.6 for LED1 to work
+Move the parts out from under the connector so they can be debugged.
