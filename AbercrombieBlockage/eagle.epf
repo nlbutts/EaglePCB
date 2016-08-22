@@ -351,10 +351,10 @@ UsedLibrary="c:/projects/eaglepcb/3M_By_element14_Batch_1.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="487 108 1524 881"
+Loc="3 0 1910 939"
 State=2
 Number=0
 
 [Desktop]
-Screen="5440 1088"
+Screen="1920 1080"
 Window="Win_1"
