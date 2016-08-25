@@ -1,3 +1,4 @@
+Rev 1:
 The LED fets are too close to the connector
 The C1 and C2 caps are too close to the connectors
 The main connectors for the PSoC are still a little two wide
@@ -7,3 +8,9 @@ The CS for the EEPROM is on the Transmit line of the board
 Status LED would be nice
 Must short P4.1 to P2.6 for LED1 to work
 Move the parts out from under the connector so they can be debugged.
+
+Rev 2:
+The LPF is totally wrong. Once again, I rushed it.
+But that circuit can be tweaked to be a VBATT monitor, DNP R6, then drive
+OPAMP2_OUT to a logic high, jumper C8, put a voltage divider on R5 and C9, read
+the analog voltage at OPAMP2+
