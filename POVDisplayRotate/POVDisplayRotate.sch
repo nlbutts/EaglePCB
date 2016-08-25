@@ -14160,10 +14160,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <library name="NicksParts">
 <packages>
 <package name="LTST-C19HE1WT">
-<smd name="RED" x="-0.4" y="0.7" dx="0.65" dy="0.85" layer="1"/>
-<smd name="GREEN" x="0.4" y="0.7" dx="0.65" dy="0.85" layer="1"/>
-<smd name="BLUE" x="0.4" y="-0.7" dx="0.65" dy="0.85" layer="1"/>
-<smd name="A" x="-0.4" y="-0.7" dx="0.65" dy="0.85" layer="1"/>
+<smd name="RED" x="-0.425" y="0.725" dx="0.65" dy="0.85" layer="1"/>
+<smd name="GREEN" x="0.425" y="0.725" dx="0.65" dy="0.85" layer="1"/>
+<smd name="BLUE" x="0.425" y="-0.725" dx="0.65" dy="0.85" layer="1"/>
+<smd name="A" x="-0.425" y="-0.725" dx="0.65" dy="0.85" layer="1"/>
 <text x="-1" y="2" size="0.6096" layer="25">&gt;NAME</text>
 <wire x1="-0.8" y1="0.6" x2="0.8" y2="0.6" width="0.127" layer="25"/>
 <wire x1="0.8" y1="0.6" x2="0.8" y2="-0.6" width="0.127" layer="25"/>
@@ -15620,6 +15620,89 @@ W = angled&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="con-lstb">
+<description>&lt;b&gt;Pin Headers&lt;/b&gt;&lt;p&gt;
+Naming:&lt;p&gt;
+MA = male&lt;p&gt;
+# contacts - # rows&lt;p&gt;
+W = angled&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="MA03-1">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-3.175" y1="1.27" x2="-1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="1.27" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-1.27" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="0.635" x2="-3.81" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="1.27" x2="-3.81" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="-0.635" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-1.27" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="0.635" x2="3.81" y2="-0.635" width="0.1524" layer="21"/>
+<pad name="1" x="-2.54" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="0" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="2.54" y="0" drill="1.016" shape="long" rot="R90"/>
+<text x="-3.81" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-5.08" y="-0.635" size="1.27" layer="21" ratio="10">1</text>
+<text x="-3.81" y="-2.921" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+<rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
+<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MA03-1">
+<wire x1="3.81" y1="-5.08" x2="-1.27" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.6096" layer="94"/>
+<wire x1="-1.27" y1="5.08" x2="-1.27" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="-5.08" x2="3.81" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-1.27" y1="5.08" x2="3.81" y2="5.08" width="0.4064" layer="94"/>
+<text x="-1.27" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-1.27" y="5.842" size="1.778" layer="95">&gt;NAME</text>
+<pin name="1" x="7.62" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="2" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="3" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MA03-1" prefix="SV" uservalue="yes">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="MA03-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MA03-1">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -15774,6 +15857,7 @@ W = angled&lt;p&gt;
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
+<part name="SV2" library="con-lstb" deviceset="MA03-1" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15924,6 +16008,7 @@ W = angled&lt;p&gt;
 <instance part="GND1" gate="1" x="38.1" y="-40.64"/>
 <instance part="GND3" gate="1" x="147.32" y="53.34"/>
 <instance part="GND5" gate="1" x="276.86" y="68.58"/>
+<instance part="SV2" gate="G$1" x="193.04" y="35.56"/>
 </instances>
 <busses>
 </busses>
@@ -16571,6 +16656,11 @@ W = angled&lt;p&gt;
 <wire x1="276.86" y1="71.12" x2="276.86" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="SV2" gate="G$1" pin="1"/>
+<wire x1="200.66" y1="33.02" x2="213.36" y2="33.02" width="0.1524" layer="91"/>
+<label x="203.2" y="33.02" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="EE_MISO" class="0">
 <segment>
@@ -16579,9 +16669,9 @@ W = angled&lt;p&gt;
 <label x="368.3" y="-25.4" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U4" gate="G$1" pin="0.1"/>
-<wire x1="248.92" y1="38.1" x2="231.14" y2="38.1" width="0.1524" layer="91"/>
-<label x="233.68" y="38.1" size="1.778" layer="95"/>
+<pinref part="U4" gate="G$1" pin="3.5"/>
+<wire x1="358.14" y1="35.56" x2="373.38" y2="35.56" width="0.1524" layer="91"/>
+<label x="360.68" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="EE_MOSI" class="0">
@@ -16591,9 +16681,9 @@ W = angled&lt;p&gt;
 <label x="325.12" y="-25.4" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U4" gate="G$1" pin="0.0"/>
-<wire x1="284.48" y1="38.1" x2="299.72" y2="38.1" width="0.1524" layer="91"/>
-<label x="287.02" y="38.1" size="1.778" layer="95"/>
+<pinref part="U4" gate="G$1" pin="3.1"/>
+<wire x1="358.14" y1="30.48" x2="373.38" y2="30.48" width="0.1524" layer="91"/>
+<label x="360.68" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="EE_CS" class="0">
@@ -16603,9 +16693,9 @@ W = angled&lt;p&gt;
 <label x="325.12" y="-20.32" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U4" gate="G$1" pin="0.2"/>
-<wire x1="284.48" y1="35.56" x2="299.72" y2="35.56" width="0.1524" layer="91"/>
-<label x="287.02" y="35.56" size="1.778" layer="95"/>
+<pinref part="U4" gate="G$1" pin="3.7"/>
+<wire x1="358.14" y1="38.1" x2="373.38" y2="38.1" width="0.1524" layer="91"/>
+<label x="360.68" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="EE_WP" class="0">
@@ -16613,6 +16703,11 @@ W = angled&lt;p&gt;
 <pinref part="U5" gate="G$1" pin="WP"/>
 <wire x1="335.28" y1="-30.48" x2="325.12" y2="-30.48" width="0.1524" layer="91"/>
 <label x="325.12" y="-30.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="3.3"/>
+<wire x1="358.14" y1="33.02" x2="373.38" y2="33.02" width="0.1524" layer="91"/>
+<label x="360.68" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="EE_HOLD" class="0">
@@ -16629,9 +16724,9 @@ W = angled&lt;p&gt;
 <label x="325.12" y="-22.86" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U4" gate="G$1" pin="0.3"/>
-<wire x1="248.92" y1="35.56" x2="231.14" y2="35.56" width="0.1524" layer="91"/>
-<label x="233.68" y="35.56" size="1.778" layer="95"/>
+<pinref part="U4" gate="G$1" pin="2.5"/>
+<wire x1="358.14" y1="20.32" x2="373.38" y2="20.32" width="0.1524" layer="91"/>
+<label x="360.68" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -16784,6 +16879,37 @@ W = angled&lt;p&gt;
 <wire x1="76.2" y1="68.58" x2="76.2" y2="55.88" width="0.1524" layer="91"/>
 <junction x="76.2" y="55.88"/>
 <pinref part="C3" gate="G$1" pin="-"/>
+</segment>
+</net>
+<net name="HOLD" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="5.0"/>
+<wire x1="358.14" y1="25.4" x2="373.38" y2="25.4" width="0.1524" layer="91"/>
+<label x="360.68" y="25.4" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="TX" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="1.5"/>
+<wire x1="284.48" y1="20.32" x2="299.72" y2="20.32" width="0.1524" layer="91"/>
+<label x="287.02" y="20.32" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SV2" gate="G$1" pin="3"/>
+<wire x1="200.66" y1="38.1" x2="213.36" y2="38.1" width="0.1524" layer="91"/>
+<label x="203.2" y="38.1" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="RX" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="1.4"/>
+<wire x1="284.48" y1="25.4" x2="299.72" y2="25.4" width="0.1524" layer="91"/>
+<label x="287.02" y="25.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SV2" gate="G$1" pin="2"/>
+<wire x1="200.66" y1="35.56" x2="213.36" y2="35.56" width="0.1524" layer="91"/>
+<label x="203.2" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
