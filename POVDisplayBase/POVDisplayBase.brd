@@ -68,7 +68,7 @@
 <hole x="4.7" y="24.7" drill="5"/>
 <hole x="75.3" y="24.7" drill="5"/>
 <circle x="72" y="1" radius="0.316225" width="0.254" layer="16"/>
-<text x="27.94" y="93.98" size="1.778" layer="25" font="vector" ratio="15">POVDisplayBaseV2
+<text x="27.94" y="93.98" size="1.778" layer="25" font="vector" ratio="15">POVDisplayBaseV3
 Nick Butts 2016</text>
 <text x="6" y="6" size="0.8128" layer="25" font="vector" ratio="15">FAN+</text>
 <text x="3" y="6" size="0.8128" layer="25" font="vector" ratio="15">GND</text>
