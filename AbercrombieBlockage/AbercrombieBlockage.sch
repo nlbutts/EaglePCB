@@ -7309,8 +7309,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="DIGIKEY" value="VSMY3850-GS08CT-ND"/>
 <attribute name="DIGIKEY2" value="VSMY2850GCT-ND"/>
 </part>
-<part name="C1" library="resistor" deviceset="C-US" device="C1210" value="100u"/>
-<part name="C2" library="resistor" deviceset="C-US" device="C1210" value="1u"/>
+<part name="C1" library="resistor" deviceset="C-US" device="C1210" value="220u"/>
+<part name="C2" library="resistor" deviceset="C-US" device="C1210" value="220u"/>
 <part name="R1" library="resistor" deviceset="R-US_" device="R2010" value="15">
 <attribute name="DIGIKEY_100_OHM" value="YAG3381CT-ND"/>
 <attribute name="DIGIKEY_30_OHM" value="RHM30BGCT-ND"/>
@@ -7362,13 +7362,13 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="SV2" library="con-lstb" deviceset="MA03-1" device=""/>
 <part name="LED6" library="NicksParts" deviceset="LTST-C19HE1WT" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="C8" library="resistor" deviceset="C-US" device="C0603" value="20n"/>
-<part name="R5" library="resistor" deviceset="R-US_" device="R0603" value="937.82k"/>
-<part name="R6" library="resistor" deviceset="R-US_" device="R0603" value="937.82k"/>
-<part name="C9" library="resistor" deviceset="C-US" device="C0603" value="10n"/>
-<part name="R7" library="resistor" deviceset="R-US_" device="R0603" value="200"/>
-<part name="R8" library="resistor" deviceset="R-US_" device="R0603" value="60"/>
-<part name="R9" library="resistor" deviceset="R-US_" device="R0603" value="60"/>
+<part name="C8" library="resistor" deviceset="C-US" device="C0603" value="0"/>
+<part name="R5" library="resistor" deviceset="R-US_" device="R0603" value="1M"/>
+<part name="R6" library="resistor" deviceset="R-US_" device="R0603" value="DNP"/>
+<part name="C9" library="resistor" deviceset="C-US" device="C0603" value="620K"/>
+<part name="R7" library="resistor" deviceset="R-US_" device="R0603" value="360"/>
+<part name="R8" library="resistor" deviceset="R-US_" device="R0603" value="360"/>
+<part name="R9" library="resistor" deviceset="R-US_" device="R0603" value="360"/>
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
 </parts>
 <sheets>
