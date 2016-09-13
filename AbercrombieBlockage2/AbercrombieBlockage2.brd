@@ -18,33 +18,33 @@
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
@@ -61,17 +61,19 @@
 <wire x1="38" y1="0" x2="38" y2="38" width="0" layer="20"/>
 <wire x1="38" y1="38" x2="0" y2="38" width="0" layer="20"/>
 <wire x1="0" y1="38" x2="0" y2="0" width="0" layer="20"/>
-<text x="15.494" y="47.117" size="0.6096" layer="25" font="vector" ratio="15">VTAGR</text>
-<text x="11.303" y="47.752" size="0.6096" layer="25" font="vector" ratio="15">VBATT</text>
-<text x="3.302" y="48.387" size="0.6096" layer="25" font="vector" ratio="15">GND</text>
-<text x="27.94" y="47.625" size="0.6096" layer="25" font="vector" ratio="15">SWDIO</text>
-<text x="24.13" y="47.371" size="0.6096" layer="25" font="vector" ratio="15">SWDCLK</text>
-<text x="47.244" y="38.735" size="0.6096" layer="25" font="vector" ratio="15">VREF</text>
-<text x="51" y="50" size="0.6096" layer="25" font="vector" ratio="15" rot="R270">Abercrombie BLE Spray V2.0
+<text x="5.694" y="31.917" size="0.8" layer="25" font="vector" ratio="14">VTAGR</text>
+<text x="28.403" y="33.452" size="0.8" layer="25" font="vector" ratio="14">VBATT</text>
+<text x="16.94" y="32.125" size="0.8" layer="25" font="vector" ratio="14">SWDIO</text>
+<text x="12.63" y="33.371" size="0.8" layer="25" font="vector" ratio="14">SWDCLK</text>
+<text x="35" y="35" size="0.8" layer="26" font="vector" ratio="14" rot="MR270">Abercrombie BLE LaserSpray V1.0
 Appareo Systems 2016</text>
-<text x="21.59" y="47.371" size="0.6096" layer="25" font="vector" ratio="15">RST</text>
-<text x="19.05" y="47.371" size="0.6096" layer="25" font="vector" ratio="15">GND</text>
+<text x="11.29" y="31.971" size="0.8" layer="25" font="vector" ratio="14">RST</text>
+<text x="9.05" y="33.371" size="0.8" layer="25" font="vector" ratio="14">GND</text>
 <wire x1="0" y1="0" x2="38" y2="0" width="0" layer="20"/>
+<wire x1="7" y1="33" x2="7" y2="34" width="0.254" layer="48"/>
+<wire x1="12" y1="33" x2="12" y2="34" width="0.254" layer="48"/>
+<wire x1="17" y1="33" x2="17" y2="34" width="0.254" layer="48"/>
+<text x="23.35" y="33.571" size="0.8" layer="25" font="vector" ratio="14">GND</text>
 </plain>
 <libraries>
 <library name="resistor">
@@ -1254,7 +1256,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="5" y1="5" x2="-5" y2="5" width="0.127" layer="51"/>
 <wire x1="-5" y1="5" x2="-5" y2="-5" width="0.127" layer="51"/>
 <circle x="4.6" y="4.5" radius="0.1" width="0.127" layer="51"/>
-<text x="-4" y="6" size="1.27" layer="25">&gt;NAMES</text>
+<text x="-4" y="6" size="1.27" layer="25">&gt;NAME</text>
 </package>
 <package name="VL53L0X">
 <smd name="1" x="0.25" y="0" dx="0.5" dy="1" layer="1"/>
@@ -1657,16 +1659,16 @@ Please make sure your boards conform to these design rules.</description>
 </autorouter>
 <elements>
 <element name="C1" library="resistor" package="C1210" value="220u" x="23" y="31" smashed="yes" rot="R270">
-<attribute name="NAME" x="23" y="27.698" size="1.016" layer="25" rot="R270"/>
-<attribute name="VALUE" x="25.825" y="33.905" size="1.27" layer="27" rot="R270"/>
+<attribute name="NAME" x="22.602" y="27.6" size="0.8" layer="25"/>
+<attribute name="VALUE" x="25.825" y="33.905" size="0.8" layer="27" rot="R270"/>
 </element>
 <element name="C4" library="resistor" package="C1210" value="10u" x="27" y="31" smashed="yes" rot="R270">
-<attribute name="NAME" x="27" y="27.952" size="1.016" layer="25" rot="R270"/>
-<attribute name="VALUE" x="25.857" y="35.826" size="1.016" layer="27" rot="R270"/>
+<attribute name="NAME" x="26.448" y="27.5" size="0.8" layer="25"/>
+<attribute name="VALUE" x="25.857" y="35.826" size="0.8" layer="27" rot="R270"/>
 </element>
 <element name="C3" library="resistor" package="C0603" value="1u" x="30" y="31" smashed="yes" rot="R270">
-<attribute name="NAME" x="30" y="28.333" size="1.016" layer="25" rot="R270"/>
-<attribute name="VALUE" x="29.095" y="34.635" size="1.27" layer="27" rot="R270"/>
+<attribute name="NAME" x="29.467" y="28.4" size="0.8" layer="25"/>
+<attribute name="VALUE" x="29.095" y="34.635" size="0.8" layer="27" rot="R270"/>
 </element>
 <element name="SV1" library="con-lstb" package="MA03-1" value="" x="27" y="36" smashed="yes">
 <attribute name="MF" value="" x="27" y="36" size="1.778" layer="27" display="off"/>
@@ -1686,49 +1688,127 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="U1" library="NicksParts" package="SOT-23-6" value="DMN3135LVT" x="19" y="27" smashed="yes" rot="R270">
 <attribute name="DIGIKEY" value="DMN3135LVT-7DICT-ND" x="19" y="27" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="21.032" y="27.508" size="1.016" layer="25" rot="R270"/>
-<attribute name="VALUE" x="16.46" y="28.27" size="0.6096" layer="27" rot="R270"/>
+<attribute name="NAME" x="18.092" y="29.232" size="0.8" layer="25"/>
+<attribute name="VALUE" x="16.46" y="28.27" size="0.8" layer="27" rot="R270"/>
 </element>
 <element name="LED1" library="NicksParts" package="LTST-C19HE1WT" value="LTST-C19HE1WT" x="3" y="12.27" smashed="yes">
-<attribute name="NAME" x="2" y="14.27" size="1.016" layer="25"/>
+<attribute name="NAME" x="4.4" y="11.27" size="0.8" layer="25"/>
 </element>
 <element name="R2" library="resistor" package="R0603" value="360" x="5" y="16" smashed="yes" rot="R90">
-<attribute name="NAME" x="5" y="17.27" size="1.016" layer="25" rot="R90"/>
-<attribute name="VALUE" x="6.905" y="15.365" size="1.27" layer="27" rot="R90"/>
+<attribute name="NAME" x="6" y="19" size="0.8" layer="25" rot="R180"/>
+<attribute name="VALUE" x="6.905" y="15.365" size="0.8" layer="27" rot="R90"/>
 </element>
-<element name="U3" library="NicksParts" package="CYBLE-022001-00" value="CYBLE-022001-00" x="6.79" y="25.13" rot="R90"/>
-<element name="U5" library="NicksParts" package="VL53L0X" value="VL53L0X" x="5" y="2" rot="R90"/>
-<element name="U8" library="NicksParts" package="SO-08" value="M24" x="33.98" y="16.95" rot="R180"/>
-<element name="U4" library="NicksParts" package="LGA-16" value="LIS3DH" x="19" y="4" rot="R90"/>
+<element name="U3" library="NicksParts" package="CYBLE-022001-00" value="CYBLE-022001-00" x="6.79" y="25.13" smashed="yes" rot="R90">
+<attribute name="NAME" x="13.37" y="30.89" size="0.8" layer="25" rot="R180"/>
+<attribute name="DIGIKEY" value="428-3566-PROMO-ND" x="6.79" y="25.13" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="U5" library="NicksParts" package="VL53L0X" value="VL53L0X" x="5" y="2" smashed="yes" rot="R90">
+<attribute name="NAME" x="7.6" y="2.1" size="0.8" layer="25" rot="R180"/>
+<attribute name="DIGIKEY" value="497-16538-1-ND" x="5" y="2" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="U8" library="NicksParts" package="SO-08" value="M24" x="33.98" y="16.95" smashed="yes" rot="R180">
+<attribute name="NAME" x="35.345" y="12.055" size="0.8" layer="25"/>
+<attribute name="VALUE" x="29.535" y="18.855" size="0.8" layer="27" rot="R270"/>
+<attribute name="DIGIKEY" value="497-6348-1-ND" x="33.98" y="16.95" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="U4" library="NicksParts" package="LGA-16" value="LIS3DH" x="19" y="4" smashed="yes" rot="R90">
+<attribute name="NAME" x="22.7" y="4.8" size="0.8" layer="25" rot="R180"/>
+<attribute name="DIGIKEY" value="497-10613-1-ND" x="19" y="4" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
 <element name="U2" library="NicksParts" package="ICS-43434" value="ICS-43434" x="33.37" y="24.83" smashed="yes">
-<attribute name="NAME" x="33.17" y="26.83" size="1" layer="25"/>
+<attribute name="NAME" x="33.27" y="22.23" size="0.8" layer="25"/>
+<attribute name="DIGIKEY" value="1428-1066-1-ND" x="33.37" y="24.83" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C6" library="resistor" package="C0603" value="0.1u" x="29.52" y="25.29" rot="R90"/>
-<element name="R3" library="resistor" package="R0603" value="8k" x="13" y="16" rot="R90"/>
-<element name="R4" library="resistor" package="R0603" value="8k" x="11" y="16" rot="R90"/>
-<element name="R1" library="resistor" package="R0603" value="200K" x="17.56" y="23.2" rot="R270"/>
-<element name="C8" library="resistor" package="C0603" value="10u" x="12" y="4" rot="R90"/>
-<element name="C12" library="resistor" package="C0603" value="0.1u" x="14" y="4" rot="R90"/>
-<element name="C9" library="resistor" package="C0603" value="4.7u" x="5.2" y="7.68" rot="R180"/>
-<element name="C13" library="resistor" package="C0603" value="0.1u" x="5.2" y="9.76" rot="R180"/>
-<element name="U6" library="NicksParts" package="VL53L0X" value="VL53L0X" x="20" y="8" rot="R90"/>
-<element name="C10" library="resistor" package="C0603" value="4.7u" x="22" y="15" rot="R180"/>
-<element name="C14" library="resistor" package="C0603" value="0.1u" x="22" y="13" rot="R180"/>
-<element name="U7" library="NicksParts" package="VL53L0X" value="VL53L0X" x="35" y="2" rot="R90"/>
-<element name="C11" library="resistor" package="C0603" value="4.7u" x="35.17" y="10.06" rot="R180"/>
-<element name="C15" library="resistor" package="C0603" value="0.1u" x="35.17" y="8.14" rot="R180"/>
-<element name="C7" library="resistor" package="C0603" value="0.1u" x="30" y="17" rot="R90"/>
-<element name="R5" library="resistor" package="R0603" value="360" x="3" y="16" rot="R90"/>
-<element name="BAT1" library="NicksParts" package="COIN_CELL" value="" x="19" y="13" rot="MR0"/>
-<element name="TP1" library="testpad" package="B1,27" value="TPB1,27" x="2" y="35">
-<attribute name="TP_SIGNAL_NAME" value="" x="2" y="35" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="C6" library="resistor" package="C0603" value="0.1u" x="29.52" y="25.29" smashed="yes" rot="R90">
+<attribute name="NAME" x="29.745" y="23.085" size="0.8" layer="25" rot="R180"/>
+<attribute name="VALUE" x="31.425" y="24.655" size="0.8" layer="27" rot="R90"/>
 </element>
-<element name="TP2" library="testpad" package="B1,27" value="TPB1,27" x="2" y="32">
-<attribute name="TP_SIGNAL_NAME" value="" x="2" y="32" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="R3" library="resistor" package="R0603" value="8k" x="13" y="16" smashed="yes" rot="R90">
+<attribute name="NAME" x="14" y="14" size="0.8" layer="25" rot="R180"/>
+<attribute name="VALUE" x="14.905" y="15.365" size="0.8" layer="27" rot="R90"/>
 </element>
-<element name="R6" library="resistor" package="R0603" value="2M" x="17" y="16" rot="R270"/>
-<element name="R7" library="resistor" package="R0603" value="6.6M" x="15" y="16" rot="R90"/>
-<element name="R8" library="resistor" package="R0603" value="100k" x="33" y="28"/>
+<element name="R4" library="resistor" package="R0603" value="8k" x="11" y="16" smashed="yes" rot="R90">
+<attribute name="NAME" x="12" y="14" size="0.8" layer="25" rot="R180"/>
+<attribute name="VALUE" x="12.905" y="15.365" size="0.8" layer="27" rot="R90"/>
+</element>
+<element name="R1" library="resistor" package="R0603" value="200K" x="17.56" y="23.2" smashed="yes" rot="R270">
+<attribute name="NAME" x="16.965" y="20.495" size="0.8" layer="25"/>
+<attribute name="VALUE" x="15.655" y="23.835" size="0.8" layer="27" rot="R270"/>
+</element>
+<element name="C8" library="resistor" package="C0603" value="10u" x="12" y="4" smashed="yes" rot="R90">
+<attribute name="NAME" x="12" y="7" size="0.8" layer="25" rot="R180"/>
+<attribute name="VALUE" x="13.905" y="3.365" size="0.8" layer="27" rot="R90"/>
+</element>
+<element name="C12" library="resistor" package="C0603" value="0.1u" x="14" y="4" smashed="yes" rot="R90">
+<attribute name="NAME" x="15" y="7" size="0.8" layer="25" rot="R180"/>
+<attribute name="VALUE" x="15.905" y="3.365" size="0.8" layer="27" rot="R90"/>
+</element>
+<element name="C9" library="resistor" package="C0603" value="4.7u" x="5.2" y="7.68" smashed="yes" rot="R180">
+<attribute name="NAME" x="9" y="8" size="0.8" layer="25" rot="R180"/>
+<attribute name="VALUE" x="5.835" y="9.585" size="0.8" layer="27" rot="R180"/>
+</element>
+<element name="C13" library="resistor" package="C0603" value="0.1u" x="5.2" y="9.76" smashed="yes" rot="R180">
+<attribute name="NAME" x="9.035" y="10.025" size="0.8" layer="25" rot="R180"/>
+<attribute name="VALUE" x="5.835" y="11.665" size="0.8" layer="27" rot="R180"/>
+</element>
+<element name="U6" library="NicksParts" package="VL53L0X" value="VL53L0X" x="20" y="8" smashed="yes" rot="R90">
+<attribute name="NAME" x="22.4" y="8.6" size="0.8" layer="25" rot="R180"/>
+<attribute name="DIGIKEY" value="497-16538-1-ND" x="20" y="8" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="C10" library="resistor" package="C0603" value="4.7u" x="22" y="15" smashed="yes" rot="R180">
+<attribute name="NAME" x="25.9" y="15.4" size="0.8" layer="25" rot="R180"/>
+<attribute name="VALUE" x="22.635" y="16.905" size="0.8" layer="27" rot="R180"/>
+</element>
+<element name="C14" library="resistor" package="C0603" value="0.1u" x="22" y="13" smashed="yes" rot="R180">
+<attribute name="NAME" x="26" y="13" size="0.8" layer="25" rot="R180"/>
+<attribute name="VALUE" x="22.635" y="14.905" size="0.8" layer="27" rot="R180"/>
+</element>
+<element name="U7" library="NicksParts" package="VL53L0X" value="VL53L0X" x="35" y="2" smashed="yes" rot="R90">
+<attribute name="NAME" x="31.5" y="2.6" size="0.8" layer="25" rot="R180"/>
+<attribute name="DIGIKEY" value="497-16538-1-ND" x="35" y="2" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="C11" library="resistor" package="C0603" value="4.7u" x="35.17" y="10.06" smashed="yes" rot="R180">
+<attribute name="NAME" x="33" y="10" size="0.8" layer="25" rot="R180"/>
+<attribute name="VALUE" x="35.805" y="11.965" size="0.8" layer="27" rot="R180"/>
+</element>
+<element name="C15" library="resistor" package="C0603" value="0.1u" x="35.17" y="8.14" smashed="yes" rot="R180">
+<attribute name="NAME" x="33" y="8" size="0.8" layer="25" rot="R180"/>
+<attribute name="VALUE" x="35.805" y="10.045" size="0.8" layer="27" rot="R180"/>
+</element>
+<element name="C7" library="resistor" package="C0603" value="0.1u" x="30" y="17" smashed="yes" rot="R90">
+<attribute name="NAME" x="28.935" y="17.465" size="0.8" layer="25" rot="R180"/>
+<attribute name="VALUE" x="31.905" y="16.365" size="0.8" layer="27" rot="R90"/>
+</element>
+<element name="R5" library="resistor" package="R0603" value="360" x="3" y="16" smashed="yes" rot="R90">
+<attribute name="NAME" x="3" y="19" size="0.8" layer="25" rot="R180"/>
+<attribute name="VALUE" x="4.905" y="15.365" size="0.8" layer="27" rot="R90"/>
+</element>
+<element name="BAT1" library="NicksParts" package="COIN_CELL" value="" x="19" y="13" smashed="yes" rot="MR0">
+<attribute name="NAME" x="31.3" y="21.6" size="0.8" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="31.2" y="3.7" size="1.27" layer="28" rot="MR0"/>
+</element>
+<element name="TX" library="testpad" package="B1,27" value="TPB1,27" x="2" y="35" smashed="yes">
+<attribute name="TP_SIGNAL_NAME" value="" x="1.365" y="33.095" size="1" layer="37"/>
+<attribute name="NAME" x="1.365" y="36.016" size="0.8" layer="25" ratio="10"/>
+<attribute name="VALUE" x="1.365" y="34.238" size="0.8" layer="27"/>
+</element>
+<element name="GND" library="testpad" package="B1,27" value="TPB1,27" x="2" y="32" smashed="yes">
+<attribute name="TP_SIGNAL_NAME" value="" x="1.365" y="30.095" size="1" layer="37"/>
+<attribute name="NAME" x="1.365" y="33.016" size="0.8" layer="25" ratio="10"/>
+<attribute name="VALUE" x="1.365" y="31.238" size="0.8" layer="27"/>
+</element>
+<element name="R6" library="resistor" package="R0603" value="2M" x="17" y="16" smashed="yes" rot="R270">
+<attribute name="NAME" x="18" y="14" size="0.8" layer="25" rot="R180"/>
+<attribute name="VALUE" x="15.095" y="16.635" size="0.8" layer="27" rot="R270"/>
+</element>
+<element name="R7" library="resistor" package="R0603" value="6.6M" x="15" y="16" smashed="yes" rot="R90">
+<attribute name="NAME" x="16" y="14" size="0.8" layer="25" rot="R180"/>
+<attribute name="VALUE" x="16.905" y="15.365" size="0.8" layer="27" rot="R90"/>
+</element>
+<element name="R8" library="resistor" package="R0603" value="100k" x="33" y="28" smashed="yes">
+<attribute name="NAME" x="32.765" y="29.035" size="0.8" layer="25"/>
+<attribute name="VALUE" x="32.365" y="26.095" size="0.8" layer="27"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -1774,7 +1854,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="U8" pad="7"/>
 <contactref element="C7" pad="2"/>
 <contactref element="BAT1" pad="GND1"/>
-<contactref element="TP2" pad="TP"/>
+<contactref element="GND" pad="TP"/>
 <contactref element="R6" pad="2"/>
 <contactref element="U2" pad="2"/>
 <contactref element="U2" pad="3"/>
@@ -2017,7 +2097,7 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="UART_TX">
 <contactref element="U3" pad="9"/>
-<contactref element="TP1" pad="TP"/>
+<contactref element="TX" pad="TP"/>
 <wire x1="4.4196" y1="32.6136" x2="2.1336" y2="34.8996" width="0.1524" layer="1"/>
 <wire x1="9.7536" y1="27.2796" x2="4.4196" y2="32.6136" width="0.1524" layer="16"/>
 <wire x1="9.7536" y1="27.1272" x2="9.7536" y2="27.2796" width="0.1524" layer="16"/>
@@ -2608,18 +2688,6 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="4.8768" y1="30.0228" x2="4.96" y2="30.13" width="0.1524" layer="1"/>
 </signal>
 </signals>
-<errors>
-<approved hash="7,39,269903f16732eeff"/>
-<approved hash="7,39,59a2a5ee775b18da"/>
-<approved hash="7,39,a93a24c2ed581ef1"/>
-<approved hash="5,1,1661ed8f548dc39d"/>
-<approved hash="19,16,1de180dcb158d3df"/>
-<approved hash="19,16,7e2049edaef363bd"/>
-<approved hash="19,16,a3d94baec8315b9b"/>
-<approved hash="19,16,42037d2ecb7adb52"/>
-<approved hash="19,16,8a80b2fd83058999"/>
-<approved hash="19,16,3d2ca219bdab1d39"/>
-</errors>
 </board>
 </drawing>
 <compatibility>

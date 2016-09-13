@@ -118,7 +118,7 @@
 <wire x1="5" y1="5" x2="-5" y2="5" width="0.127" layer="51"/>
 <wire x1="-5" y1="5" x2="-5" y2="-5" width="0.127" layer="51"/>
 <circle x="4.6" y="4.5" radius="0.1" width="0.127" layer="51"/>
-<text x="-4" y="6" size="1.27" layer="25">&gt;NAMES</text>
+<text x="-4" y="6" size="1.27" layer="25">&gt;NAME</text>
 </package>
 <package name="VL53L0X">
 <smd name="1" x="0.25" y="0" dx="0.5" dy="1" layer="1"/>
@@ -7347,11 +7347,21 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="SV2" library="con-lstb" deviceset="MA05-1" device=""/>
 <part name="LED1" library="NicksParts" deviceset="LTST-C19HE1WT" device=""/>
 <part name="R2" library="resistor" deviceset="R-US_" device="R0603" value="360"/>
-<part name="U3" library="NicksParts" deviceset="CYBLE-022001-00" device=""/>
-<part name="U5" library="NicksParts" deviceset="VL53L0X" device=""/>
-<part name="U8" library="NicksParts" deviceset="M24" device=""/>
-<part name="U4" library="NicksParts" deviceset="LIS3DH" device=""/>
-<part name="U2" library="NicksParts" deviceset="ICS-43434" device=""/>
+<part name="U3" library="NicksParts" deviceset="CYBLE-022001-00" device="">
+<attribute name="DIGIKEY" value="428-3566-PROMO-ND"/>
+</part>
+<part name="U5" library="NicksParts" deviceset="VL53L0X" device="">
+<attribute name="DIGIKEY" value="497-16538-1-ND"/>
+</part>
+<part name="U8" library="NicksParts" deviceset="M24" device="">
+<attribute name="DIGIKEY" value="497-6348-1-ND"/>
+</part>
+<part name="U4" library="NicksParts" deviceset="LIS3DH" device="">
+<attribute name="DIGIKEY" value="497-10613-1-ND"/>
+</part>
+<part name="U2" library="NicksParts" deviceset="ICS-43434" device="">
+<attribute name="DIGIKEY" value="1428-1066-1-ND"/>
+</part>
 <part name="C6" library="resistor" deviceset="C-US" device="C0603" value="0.1u"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="R3" library="resistor" deviceset="R-US_" device="R0603" value="8k"/>
@@ -7372,12 +7382,16 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="C9" library="resistor" deviceset="C-US" device="C0603" value="4.7u"/>
 <part name="C13" library="resistor" deviceset="C-US" device="C0603" value="0.1u"/>
-<part name="U6" library="NicksParts" deviceset="VL53L0X" device=""/>
+<part name="U6" library="NicksParts" deviceset="VL53L0X" device="">
+<attribute name="DIGIKEY" value="497-16538-1-ND"/>
+</part>
 <part name="SUPPLY11" library="supply2" deviceset="V+" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="C10" library="resistor" deviceset="C-US" device="C0603" value="4.7u"/>
 <part name="C14" library="resistor" deviceset="C-US" device="C0603" value="0.1u"/>
-<part name="U7" library="NicksParts" deviceset="VL53L0X" device=""/>
+<part name="U7" library="NicksParts" deviceset="VL53L0X" device="">
+<attribute name="DIGIKEY" value="497-16538-1-ND"/>
+</part>
 <part name="SUPPLY12" library="supply2" deviceset="V+" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="C11" library="resistor" deviceset="C-US" device="C0603" value="4.7u"/>
@@ -7391,8 +7405,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="SUPPLY13" library="supply2" deviceset="V+" device=""/>
 <part name="R5" library="resistor" deviceset="R-US_" device="R0603" value="360"/>
 <part name="BAT1" library="NicksParts" deviceset="SN2032" device=""/>
-<part name="TP1" library="testpad" deviceset="TP" device="B1,27"/>
-<part name="TP2" library="testpad" deviceset="TP" device="B1,27"/>
+<part name="TX" library="testpad" deviceset="TP" device="B1,27"/>
+<part name="GND" library="testpad" deviceset="TP" device="B1,27"/>
 <part name="R6" library="resistor" deviceset="R-US_" device="R0603" value="2M"/>
 <part name="R7" library="resistor" deviceset="R-US_" device="R0603" value="6.6M"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
@@ -7418,11 +7432,21 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="SV2" gate="G$1" x="-10.16" y="106.68"/>
 <instance part="LED1" gate="G$1" x="106.68" y="25.4"/>
 <instance part="R2" gate="G$1" x="111.76" y="10.16" rot="R270"/>
-<instance part="U3" gate="G$1" x="99.06" y="96.52"/>
-<instance part="U5" gate="G$1" x="200.66" y="109.22"/>
-<instance part="U8" gate="G$1" x="200.66" y="2.54"/>
-<instance part="U4" gate="G$1" x="200.66" y="149.86"/>
-<instance part="U2" gate="G$1" x="96.52" y="149.86"/>
+<instance part="U3" gate="G$1" x="99.06" y="96.52">
+<attribute name="DIGIKEY" x="99.06" y="96.52" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U5" gate="G$1" x="200.66" y="109.22">
+<attribute name="DIGIKEY" x="200.66" y="109.22" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U8" gate="G$1" x="200.66" y="2.54">
+<attribute name="DIGIKEY" x="200.66" y="2.54" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U4" gate="G$1" x="200.66" y="149.86">
+<attribute name="DIGIKEY" x="200.66" y="149.86" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U2" gate="G$1" x="96.52" y="149.86">
+<attribute name="DIGIKEY" x="96.52" y="149.86" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="C6" gate="G$1" x="134.62" y="152.4"/>
 <instance part="GND5" gate="1" x="99.06" y="66.04"/>
 <instance part="R3" gate="G$1" x="144.78" y="106.68" rot="R270"/>
@@ -7443,12 +7467,16 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="GND10" gate="1" x="231.14" y="91.44"/>
 <instance part="C9" gate="G$1" x="236.22" y="109.22"/>
 <instance part="C13" gate="G$1" x="246.38" y="109.22"/>
-<instance part="U6" gate="G$1" x="200.66" y="71.12"/>
+<instance part="U6" gate="G$1" x="200.66" y="71.12">
+<attribute name="DIGIKEY" x="200.66" y="71.12" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY11" gate="1" x="231.14" y="83.82"/>
 <instance part="GND11" gate="1" x="231.14" y="53.34"/>
 <instance part="C10" gate="G$1" x="236.22" y="71.12"/>
 <instance part="C14" gate="G$1" x="246.38" y="71.12"/>
-<instance part="U7" gate="G$1" x="200.66" y="33.02"/>
+<instance part="U7" gate="G$1" x="200.66" y="33.02">
+<attribute name="DIGIKEY" x="200.66" y="33.02" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY12" gate="1" x="231.14" y="45.72"/>
 <instance part="GND12" gate="1" x="231.14" y="15.24"/>
 <instance part="C11" gate="G$1" x="236.22" y="33.02"/>
@@ -7462,8 +7490,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="SUPPLY13" gate="1" x="101.6" y="35.56"/>
 <instance part="R5" gate="G$1" x="106.68" y="10.16" rot="R270"/>
 <instance part="BAT1" gate="1" x="0" y="63.5" rot="R90"/>
-<instance part="TP1" gate="G$1" x="-2.54" y="132.08"/>
-<instance part="TP2" gate="G$1" x="-7.62" y="129.54"/>
+<instance part="TX" gate="G$1" x="-2.54" y="132.08"/>
+<instance part="GND" gate="G$1" x="-7.62" y="129.54"/>
 <instance part="R6" gate="G$1" x="71.12" y="5.08" rot="R270"/>
 <instance part="R7" gate="G$1" x="71.12" y="20.32" rot="R270"/>
 <instance part="GND4" gate="1" x="71.12" y="-5.08"/>
@@ -7510,7 +7538,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <segment>
 <wire x1="-7.62" y1="127" x2="10.16" y2="127" width="0.1524" layer="91"/>
 <label x="0" y="127" size="1.778" layer="95"/>
-<pinref part="TP2" gate="G$1" pin="TP"/>
+<pinref part="GND" gate="G$1" pin="TP"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="GND1"/>
@@ -7737,7 +7765,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <segment>
 <wire x1="-2.54" y1="129.54" x2="10.16" y2="129.54" width="0.1524" layer="91"/>
 <label x="0" y="129.54" size="1.778" layer="95"/>
-<pinref part="TP1" gate="G$1" pin="TP"/>
+<pinref part="TX" gate="G$1" pin="TP"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="P0.5"/>
