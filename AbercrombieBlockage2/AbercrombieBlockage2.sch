@@ -119,6 +119,11 @@
 <wire x1="-5" y1="5" x2="-5" y2="-5" width="0.127" layer="51"/>
 <circle x="4.6" y="4.5" radius="0.1" width="0.127" layer="51"/>
 <text x="-4" y="6" size="1.27" layer="25">&gt;NAME</text>
+<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.127" layer="21"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-5.08" x2="-5.08" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="5.08" width="0.127" layer="21"/>
+<circle x="4.445" y="4.445" radius="0.0508" width="0.127" layer="21"/>
 </package>
 <package name="VL53L0X">
 <smd name="1" x="0.25" y="0" dx="0.5" dy="1" layer="1"/>
@@ -137,8 +142,12 @@
 <wire x1="4" y1="0" x2="4" y2="2.1" width="0.127" layer="51"/>
 <wire x1="4" y1="2.1" x2="-0.4" y2="2.1" width="0.127" layer="51"/>
 <wire x1="-0.4" y1="2.1" x2="-0.4" y2="0" width="0.127" layer="51"/>
-<circle x="-0.4" y="-0.2" radius="0.1" width="0.127" layer="51"/>
+<circle x="-0.4" y="-0.2" radius="0.1" width="0.127" layer="21"/>
 <text x="-0.5" y="3.1" size="1" layer="25">&gt;NAME</text>
+<wire x1="-0.4" y1="2.1" x2="4" y2="2.1" width="0.127" layer="21"/>
+<wire x1="4" y1="2.1" x2="4" y2="0" width="0.127" layer="21"/>
+<wire x1="4" y1="0" x2="-0.4" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.4" y1="0" x2="-0.4" y2="2.1" width="0.127" layer="21"/>
 </package>
 <package name="SO-08">
 <description>&lt;b&gt;D (R-PDSO-G8)&lt;/b&gt; Plastic Small Outline Package&lt;p&gt;
@@ -173,6 +182,11 @@ Source: http://focus.ti.com/lit/ds/symlink/sn65als176.pdf</description>
 <rectangle x1="0.39" y1="2" x2="0.88" y2="3.1" layer="51"/>
 <rectangle x1="-0.88" y1="2" x2="-0.39" y2="3.1" layer="51"/>
 <rectangle x1="-2.15" y1="2" x2="-1.66" y2="3.1" layer="51"/>
+<wire x1="-2.3" y1="1.9" x2="2.4" y2="1.9" width="0.127" layer="21"/>
+<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.9" width="0.127" layer="21"/>
+<wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.127" layer="21"/>
+<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="1.9" width="0.127" layer="21"/>
+<circle x="-3.2" y="-2.7" radius="0.1" width="0.127" layer="21"/>
 </package>
 <package name="LGA-16">
 <smd name="3" x="-1.5" y="0" dx="0.25" dy="0.7" layer="1" rot="R90"/>
@@ -195,8 +209,12 @@ Source: http://focus.ti.com/lit/ds/symlink/sn65als176.pdf</description>
 <wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.1" layer="51"/>
 <wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.1" layer="51"/>
 <wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.1" layer="51"/>
-<circle x="-2" y="1.5" radius="0.1" width="0.1" layer="51"/>
+<circle x="-2" y="1.5" radius="0.1" width="0.1" layer="21"/>
 <text x="-1.3" y="2.2" size="0.5" layer="25">&gt;NAME</text>
+<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.127" layer="21"/>
 </package>
 <package name="ICS-43434">
 <smd name="5" x="0" y="0.9" dx="0.522" dy="0.6" layer="1"/>
