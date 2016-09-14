@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,12 +39,12 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -14228,6 +14228,14 @@ In this library the device names are the same as the pin names of the symbols, t
 <smd name="2.1" x="13.97" y="-13.97" dx="4.826" dy="0.889" layer="1"/>
 <smd name="VDDR" x="7.62" y="-16.51" dx="4.826" dy="0.889" layer="1"/>
 <smd name="GND2" x="13.97" y="-16.51" dx="4.826" dy="0.889" layer="1"/>
+<wire x1="-6.2" y1="-16" x2="-6.2" y2="16" width="0.127" layer="51"/>
+<wire x1="-6.2" y1="16" x2="-15.2" y2="16" width="0.127" layer="51"/>
+<wire x1="-15.2" y1="16" x2="-15.2" y2="-16" width="0.127" layer="51"/>
+<wire x1="-15.2" y1="-16" x2="-6.2" y2="-16" width="0.127" layer="51"/>
+<wire x1="6.4" y1="16" x2="15.4" y2="16" width="0.127" layer="51"/>
+<wire x1="15.4" y1="16" x2="15.4" y2="-21" width="0.127" layer="51"/>
+<wire x1="15.4" y1="-21" x2="6.4" y2="-21" width="0.127" layer="51"/>
+<wire x1="6.4" y1="-21" x2="6.4" y2="16" width="0.127" layer="51"/>
 </package>
 <package name="SSOP16_EPAD">
 <wire x1="-2.1484" y1="-2.3984" x2="2.1484" y2="-2.3984" width="0.2032" layer="21"/>
@@ -14325,6 +14333,11 @@ Source: http://focus.ti.com/lit/ds/symlink/sn65als176.pdf</description>
 <rectangle x1="0.39" y1="2" x2="0.88" y2="3.1" layer="51"/>
 <rectangle x1="-0.88" y1="2" x2="-0.39" y2="3.1" layer="51"/>
 <rectangle x1="-2.15" y1="2" x2="-1.66" y2="3.1" layer="51"/>
+<wire x1="-2.3" y1="1.9" x2="2.4" y2="1.9" width="0.127" layer="21"/>
+<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.9" width="0.127" layer="21"/>
+<wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.127" layer="21"/>
+<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="1.9" width="0.127" layer="21"/>
+<circle x="-3.2" y="-2.7" radius="0.1" width="0.127" layer="21"/>
 </package>
 <package name="SMB">
 <description>&lt;B&gt;DIODE&lt;/B&gt;</description>
@@ -14530,8 +14543,7 @@ Source: http://focus.ti.com/lit/ds/symlink/sn65als176.pdf</description>
 <wire x1="10.16" y1="10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
-<text x="-5.08" y="12.7" size="1.27" layer="95">&gt;NAMES</text>
-<text x="-12.7" y="-12.7" size="1.27" layer="96">&gt;VALUES</text>
+<text x="-5.08" y="12.7" size="1.27" layer="95">&gt;NAME</text>
 </symbol>
 <symbol name="EEPROM">
 <pin name="VCC" x="15.24" y="5.08" length="middle" direction="pwr" rot="R180"/>
@@ -14606,7 +14618,10 @@ Source: http://focus.ti.com/lit/ds/symlink/sn65als176.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="CY8CKIT-142" prefix="U">
-<description>PSoC 4 BLE Kit</description>
+<description>PSoC 4 BLE Kit
+Connectors: 
+S9189-ND (24 pin)
+S9188-ND (20 pin)</description>
 <gates>
 <gate name="G$1" symbol="CY8CKIT-142" x="0" y="0"/>
 </gates>
@@ -15763,8 +15778,12 @@ W = angled&lt;p&gt;
 <part name="C10" library="resistor" deviceset="C-US" device="C0603" value="10u"/>
 <part name="C11" library="resistor" deviceset="C-US" device="C0603" value="1u"/>
 <part name="U4" library="NicksParts" deviceset="CY8CKIT-142" device=""/>
-<part name="U1" library="NicksParts" deviceset="STP08DP05" device=""/>
-<part name="U2" library="NicksParts" deviceset="STP08DP05" device=""/>
+<part name="U1" library="NicksParts" deviceset="STP08DP05" device="">
+<attribute name="DIGIKEY" value="497-6119-1-ND"/>
+</part>
+<part name="U2" library="NicksParts" deviceset="STP08DP05" device="">
+<attribute name="DIGIKEY" value="497-6119-1-ND"/>
+</part>
 <part name="P+5" library="supply1" deviceset="VCC" device=""/>
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
 <part name="R1" library="resistor" deviceset="R-US_" device="R0603" value="386">
@@ -15773,7 +15792,9 @@ W = angled&lt;p&gt;
 <part name="R4" library="resistor" deviceset="R-US_" device="R0603" value="386">
 <attribute name="DIGIKEY" value="P0.0GCT-ND"/>
 </part>
-<part name="U3" library="NicksParts" deviceset="MPQ4420Q" device=""/>
+<part name="U3" library="NicksParts" deviceset="MPQ4420Q" device="">
+<attribute name="DIGIKEY" value="1589-1293-1-ND"/>
+</part>
 <part name="P+9" library="supply1" deviceset="VCC" device=""/>
 <part name="C6" library="resistor" deviceset="C-US" device="C0603" value="0.1u">
 <attribute name="DIGIKEY" value="490-6505-1-ND"/>
@@ -15914,8 +15935,12 @@ W = angled&lt;p&gt;
 <instance part="C10" gate="G$1" x="231.14" y="71.12"/>
 <instance part="C11" gate="G$1" x="238.76" y="71.12"/>
 <instance part="U4" gate="G$1" x="304.8" y="27.94"/>
-<instance part="U1" gate="G$1" x="58.42" y="-15.24"/>
-<instance part="U2" gate="G$1" x="129.54" y="-15.24"/>
+<instance part="U1" gate="G$1" x="58.42" y="-15.24">
+<attribute name="DIGIKEY" x="58.42" y="-15.24" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U2" gate="G$1" x="129.54" y="-15.24">
+<attribute name="DIGIKEY" x="129.54" y="-15.24" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="P+5" gate="VCC" x="109.22" y="0"/>
 <instance part="P+2" gate="VCC" x="38.1" y="0"/>
 <instance part="R1" gate="G$1" x="27.94" y="-27.94" rot="R270">
@@ -15924,7 +15949,9 @@ W = angled&lt;p&gt;
 <instance part="R4" gate="G$1" x="101.6" y="-27.94" rot="R270">
 <attribute name="DIGIKEY" x="101.6" y="-27.94" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="U3" gate="G$1" x="152.4" y="91.44"/>
+<instance part="U3" gate="G$1" x="152.4" y="91.44">
+<attribute name="DIGIKEY" x="152.4" y="91.44" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="P+9" gate="VCC" x="246.38" y="10.16"/>
 <instance part="C6" gate="G$1" x="132.08" y="68.58">
 <attribute name="DIGIKEY" x="132.08" y="68.58" size="1.778" layer="96" display="off"/>
