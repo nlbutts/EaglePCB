@@ -7353,7 +7353,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </class>
 </classes>
 <parts>
-<part name="C1" library="resistor" deviceset="C-US" device="C1210" value="220u"/>
+<part name="C1" library="resistor" deviceset="C-US" device="C1210" value="220u">
+<attribute name="DIGIKEYY" value="490-13250-1-ND"/>
+</part>
 <part name="U1" library="NicksParts" deviceset="DMN3135LVT" device="">
 <attribute name="DIGIKEY" value="DMN3135LVT-7DICT-ND"/>
 </part>
@@ -7362,8 +7364,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="C4" library="resistor" deviceset="C-US" device="C1210" value="10u"/>
 <part name="C3" library="resistor" deviceset="C-US" device="C0603" value="1u"/>
-<part name="SV2" library="con-lstb" deviceset="MA05-1" device=""/>
-<part name="LED1" library="NicksParts" deviceset="LTST-C19HE1WT" device=""/>
+<part name="SV2" library="con-lstb" deviceset="MA05-1" device="">
+<attribute name="DIGIKEY" value="952-2246-ND"/>
+</part>
+<part name="LED1" library="NicksParts" deviceset="LTST-C19HE1WT" device="">
+<attribute name="DIGIKEY" value="160-2162-1-ND"/>
+</part>
 <part name="R2" library="resistor" deviceset="R-US_" device="R0603" value="360"/>
 <part name="U3" library="NicksParts" deviceset="CYBLE-022001-00" device="">
 <attribute name="DIGIKEY" value="428-3566-PROMO-ND"/>
@@ -7372,7 +7378,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="DIGIKEY" value="497-16538-1-ND"/>
 </part>
 <part name="U8" library="NicksParts" deviceset="M24" device="">
-<attribute name="DIGIKEY" value="497-6348-1-ND"/>
+<attribute name="DIGIKEY" value="497-6351-1-ND"/>
 </part>
 <part name="U4" library="NicksParts" deviceset="LIS3DH" device="">
 <attribute name="DIGIKEY" value="497-10613-1-ND"/>
@@ -7422,7 +7428,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="C7" library="resistor" deviceset="C-US" device="C0603" value="0.1u"/>
 <part name="SUPPLY13" library="supply2" deviceset="V+" device=""/>
 <part name="R5" library="resistor" deviceset="R-US_" device="R0603" value="360"/>
-<part name="BAT1" library="NicksParts" deviceset="SN2032" device=""/>
+<part name="BAT1" library="NicksParts" deviceset="SN2032" device="">
+<attribute name="DIGIKEY" value="BK-913-ND"/>
+</part>
 <part name="TX" library="testpad" deviceset="TP" device="B1,27"/>
 <part name="GND" library="testpad" deviceset="TP" device="B1,27"/>
 <part name="R6" library="resistor" deviceset="R-US_" device="R0603" value="2M"/>
@@ -7438,7 +7446,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <plain>
 </plain>
 <instances>
-<instance part="C1" gate="G$1" x="17.78" y="71.12"/>
+<instance part="C1" gate="G$1" x="17.78" y="71.12">
+<attribute name="DIGIKEYY" x="17.78" y="71.12" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="U1" gate="G$1" x="20.32" y="17.78">
 <attribute name="DIGIKEY" x="20.32" y="17.78" size="1.778" layer="96" display="off"/>
 </instance>
@@ -7447,8 +7457,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="GND2" gate="1" x="10.16" y="66.04"/>
 <instance part="C4" gate="G$1" x="40.64" y="71.12"/>
 <instance part="C3" gate="G$1" x="30.48" y="71.12"/>
-<instance part="SV2" gate="G$1" x="-10.16" y="106.68"/>
-<instance part="LED1" gate="G$1" x="106.68" y="25.4"/>
+<instance part="SV2" gate="G$1" x="-10.16" y="106.68">
+<attribute name="DIGIKEY" x="-10.16" y="106.68" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="LED1" gate="G$1" x="106.68" y="25.4">
+<attribute name="DIGIKEY" x="106.68" y="25.4" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R2" gate="G$1" x="111.76" y="10.16" rot="R270"/>
 <instance part="U3" gate="G$1" x="99.06" y="96.52">
 <attribute name="DIGIKEY" x="99.06" y="96.52" size="1.778" layer="96" display="off"/>
@@ -7507,7 +7521,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="C7" gate="G$1" x="218.44" y="2.54"/>
 <instance part="SUPPLY13" gate="1" x="101.6" y="35.56"/>
 <instance part="R5" gate="G$1" x="106.68" y="10.16" rot="R270"/>
-<instance part="BAT1" gate="1" x="0" y="63.5" rot="R90"/>
+<instance part="BAT1" gate="1" x="0" y="63.5" rot="R90">
+<attribute name="DIGIKEY" x="0" y="63.5" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="TX" gate="G$1" x="-2.54" y="132.08"/>
 <instance part="GND" gate="G$1" x="-7.62" y="129.54"/>
 <instance part="R6" gate="G$1" x="71.12" y="5.08" rot="R270"/>

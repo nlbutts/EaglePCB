@@ -18,33 +18,33 @@
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
@@ -1676,6 +1676,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="C1" library="resistor" package="C1210" value="220u" x="24" y="23" smashed="yes" rot="R270">
 <attribute name="NAME" x="23.602" y="19.6" size="0.8" layer="25"/>
 <attribute name="VALUE" x="26.825" y="25.905" size="0.8" layer="27" rot="R270"/>
+<attribute name="DIGIKEYY" value="490-13250-1-ND" x="24" y="23" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C4" library="resistor" package="C1210" value="10u" x="28" y="23" smashed="yes" rot="R270">
 <attribute name="NAME" x="27.448" y="19.5" size="0.8" layer="25"/>
@@ -1700,6 +1701,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="OC_NEWARK" value="unknown" x="25.127" y="27.492" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="31.731" y="25.333" size="1.016" layer="25" ratio="10" display="off"/>
 <attribute name="VALUE" x="22.587" y="24.571" size="1.27" layer="27" ratio="10"/>
+<attribute name="DIGIKEY" value="952-2246-ND" x="25.127" y="27.492" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U1" library="NicksParts" package="SOT-23-6" value="DMN3135LVT" x="25" y="16" smashed="yes" rot="R270">
 <attribute name="DIGIKEY" value="DMN3135LVT-7DICT-ND" x="25" y="16" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1708,6 +1710,7 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="LED1" library="NicksParts" package="LTST-C19HE1WT" value="LTST-C19HE1WT" x="35" y="15.73" smashed="yes" rot="R180">
 <attribute name="NAME" x="36.521" y="18" size="0.8" layer="25" rot="R180"/>
+<attribute name="DIGIKEY" value="160-2162-1-ND" x="35" y="15.73" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R2" library="resistor" package="R0603" value="360" x="32" y="17" smashed="yes" rot="R180">
 <attribute name="NAME" x="29.244" y="16.681" size="0.8" layer="25"/>
@@ -1724,7 +1727,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="U8" library="NicksParts" package="SO-08" value="M24" x="24.98" y="8.95" smashed="yes" rot="R180">
 <attribute name="NAME" x="26.345" y="4.055" size="0.8" layer="25"/>
 <attribute name="VALUE" x="20.535" y="10.855" size="0.8" layer="27" rot="R270"/>
-<attribute name="DIGIKEY" value="497-6348-1-ND" x="24.98" y="8.95" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGIKEY" value="497-6351-1-ND" x="24.98" y="8.95" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U4" library="NicksParts" package="LGA-16" value="LIS3DH" x="19" y="4" smashed="yes" rot="R90">
 <attribute name="NAME" x="19.144" y="1.371" size="0.8" layer="25" rot="R180"/>
@@ -1801,6 +1804,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="BAT1" library="NicksParts" package="COIN_CELL" value="" x="19" y="9" smashed="yes" rot="MR0">
 <attribute name="NAME" x="31.3" y="17.6" size="0.8" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="31.2" y="-0.3" size="1.27" layer="28" rot="MR0"/>
+<attribute name="DIGIKEY" value="BK-913-ND" x="19" y="9" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="TX" library="testpad" package="B1,27" value="TPB1,27" x="15.621" y="27.94" smashed="yes">
 <attribute name="TP_SIGNAL_NAME" value="" x="14.986" y="26.035" size="1" layer="37"/>

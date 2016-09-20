@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -3297,6 +3297,20 @@ diameter 5 mm, horizontal, grid 12.7 mm</description>
 <wire x1="-10.16" y1="-5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
 <text x="-7.62" y="7.62" size="1.27" layer="95">&gt;NAME</text>
 </symbol>
+<symbol name="TPS22929D">
+<pin name="VIN" x="-15.24" y="2.54" length="middle"/>
+<pin name="VIN2" x="-15.24" y="0" length="middle"/>
+<pin name="ON" x="-15.24" y="-5.08" length="middle"/>
+<pin name="VOUT" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="GND" x="15.24" y="-2.54" length="middle" rot="R180"/>
+<pin name="GND2" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<wire x1="-10.16" y1="5.08" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
+<text x="-10.16" y="7.62" size="1.27" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-10.16" size="1.27" layer="96">TPS22929D</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="AR0331" prefix="U" uservalue="yes">
@@ -4824,6 +4838,27 @@ Synchronous Step Down Converter</description>
 <connect gate="G$1" pin="SD" pad="6"/>
 <connect gate="G$1" pin="VDD" pad="5"/>
 <connect gate="G$1" pin="WS" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TPS22929D" prefix="U" uservalue="yes">
+<description>Low resistance load switch</description>
+<gates>
+<gate name="G$1" symbol="TPS22929D" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT-23-6">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="GND2" pad="5"/>
+<connect gate="G$1" pin="ON" pad="3"/>
+<connect gate="G$1" pin="VIN" pad="4"/>
+<connect gate="G$1" pin="VIN2" pad="6"/>
+<connect gate="G$1" pin="VOUT" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
