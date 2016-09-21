@@ -32,9 +32,9 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
@@ -76,6 +76,7 @@ Appareo Systems 2016</text>
 <rectangle x1="0" y1="20" x2="13" y2="30" layer="42"/>
 <rectangle x1="17.9" y1="7.6" x2="20" y2="12" layer="41"/>
 <rectangle x1="33" y1="1.6" x2="35" y2="6" layer="41"/>
+<rectangle x1="17.526" y1="2.413" x2="20.447" y2="5.461" layer="41"/>
 </plain>
 <libraries>
 <library name="resistor">
@@ -1682,7 +1683,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="26.825" y="25.905" size="0.7" layer="27" rot="R270"/>
 <attribute name="DIGIKEYY" value="490-13250-1-ND" x="24" y="23" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C4" library="resistor" package="C1210" value="10u" x="28" y="23" smashed="yes" rot="R270">
+<element name="C4" library="resistor" package="C1210" value="220u" x="28" y="23" smashed="yes" rot="R270">
 <attribute name="NAME" x="27.448" y="19.5" size="0.7" layer="25"/>
 <attribute name="VALUE" x="26.857" y="27.826" size="0.7" layer="27" rot="R270"/>
 </element>
@@ -1995,6 +1996,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="24.511" y1="14.097" x2="26.543" y2="13.843" width="0.1524" layer="16"/>
 <wire x1="26.543" y1="13.843" x2="26.67" y2="13.97" width="0.1524" layer="16"/>
 <via x="1.905" y="11.049" extent="1-16" drill="0.3302"/>
+<wire x1="19.5" y1="5.5" x2="18.5" y2="5.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="XRES">
 <contactref element="SV2" pad="3"/>

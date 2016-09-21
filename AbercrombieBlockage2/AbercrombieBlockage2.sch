@@ -7297,7 +7297,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="SV1" library="con-lstb" deviceset="MA03-1" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="C4" library="resistor" deviceset="C-US" device="C1210" value="10u"/>
+<part name="C4" library="resistor" deviceset="C-US" device="C1210" value="220u"/>
 <part name="C3" library="resistor" deviceset="C-US" device="C0603" value="1u"/>
 <part name="SV2" library="con-lstb" deviceset="MA05-1" device="">
 <attribute name="DIGIKEY" value="952-2246-ND"/>
