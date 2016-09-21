@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -1991,23 +1991,23 @@ diameter 5 mm, horizontal, grid 12.7 mm</description>
 <circle x="4.445" y="4.445" radius="0.0508" width="0.127" layer="21"/>
 </package>
 <package name="VL53L0X">
-<smd name="1" x="0.25" y="0" dx="0.5" dy="1" layer="1"/>
-<smd name="2" x="1.05" y="0" dx="0.5" dy="1" layer="1"/>
-<smd name="3" x="1.85" y="0" dx="0.5" dy="1" layer="1"/>
-<smd name="4" x="2.65" y="0" dx="0.5" dy="1" layer="1"/>
-<smd name="5" x="3.45" y="0" dx="0.5" dy="1" layer="1"/>
+<smd name="11" x="0.25" y="0" dx="0.5" dy="1" layer="1"/>
+<smd name="10" x="1.05" y="0" dx="0.5" dy="1" layer="1"/>
+<smd name="9" x="1.85" y="0" dx="0.5" dy="1" layer="1"/>
+<smd name="8" x="2.65" y="0" dx="0.5" dy="1" layer="1"/>
+<smd name="7" x="3.45" y="0" dx="0.5" dy="1" layer="1"/>
 <smd name="6" x="3.7" y="1.05" dx="0.5" dy="1" layer="1" rot="R90"/>
-<smd name="7" x="3.45" y="2.1" dx="0.5" dy="1" layer="1" rot="R180"/>
-<smd name="8" x="2.65" y="2.1" dx="0.5" dy="1" layer="1" rot="R180"/>
-<smd name="9" x="1.85" y="2.1" dx="0.5" dy="1" layer="1" rot="R180"/>
-<smd name="10" x="1.05" y="2.1" dx="0.5" dy="1" layer="1" rot="R180"/>
-<smd name="11" x="0.25" y="2.1" dx="0.5" dy="1" layer="1" rot="R180"/>
+<smd name="5" x="3.45" y="2.1" dx="0.5" dy="1" layer="1" rot="R180"/>
+<smd name="4" x="2.65" y="2.1" dx="0.5" dy="1" layer="1" rot="R180"/>
+<smd name="3" x="1.85" y="2.1" dx="0.5" dy="1" layer="1" rot="R180"/>
+<smd name="2" x="1.05" y="2.1" dx="0.5" dy="1" layer="1" rot="R180"/>
+<smd name="1" x="0.25" y="2.1" dx="0.5" dy="1" layer="1" rot="R180"/>
 <smd name="12" x="0" y="1.05" dx="0.5" dy="1" layer="1" rot="R270"/>
 <wire x1="-0.4" y1="0" x2="4" y2="0" width="0.127" layer="51"/>
 <wire x1="4" y1="0" x2="4" y2="2.1" width="0.127" layer="51"/>
 <wire x1="4" y1="2.1" x2="-0.4" y2="2.1" width="0.127" layer="51"/>
 <wire x1="-0.4" y1="2.1" x2="-0.4" y2="0" width="0.127" layer="51"/>
-<circle x="-0.4" y="-0.2" radius="0.1" width="0.127" layer="21"/>
+<circle x="-1.035" y="2.34" radius="0.1" width="0.254" layer="21"/>
 <text x="-0.5" y="3.1" size="1" layer="25">&gt;NAME</text>
 <wire x1="-0.4" y1="2.1" x2="4" y2="2.1" width="0.127" layer="21"/>
 <wire x1="4" y1="2.1" x2="4" y2="0" width="0.127" layer="21"/>
@@ -2058,6 +2058,15 @@ diameter 5 mm, horizontal, grid 12.7 mm</description>
 <wire x1="3.2" y1="1.4" x2="3.2" y2="-1.4" width="0.127" layer="21"/>
 <wire x1="3.2" y1="-1.4" x2="-0.6" y2="-1.4" width="0.127" layer="21"/>
 <wire x1="-0.6" y1="-1.4" x2="-0.6" y2="1.4" width="0.127" layer="21"/>
+</package>
+<package name="BU2032">
+<smd name="PLUS" x="-11.65" y="0" dx="3.2" dy="4.2" layer="1" rot="R180"/>
+<smd name="NEG" x="11.65" y="0" dx="3.2" dy="4.2" layer="1" rot="R180"/>
+<circle x="0" y="0" radius="10" width="0.127" layer="51"/>
+<text x="-12" y="4" size="1.27" layer="51">+</text>
+<text x="12" y="4" size="1.27" layer="51">-</text>
+<text x="-3" y="12" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3" y="-13" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -4859,6 +4868,23 @@ Synchronous Step Down Converter</description>
 <connect gate="G$1" pin="VIN" pad="4"/>
 <connect gate="G$1" pin="VIN2" pad="6"/>
 <connect gate="G$1" pin="VOUT" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BU2032" prefix="B" uservalue="yes">
+<description>BU2032 battery holder</description>
+<gates>
+<gate name="G$1" symbol="BAT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BU2032">
+<connects>
+<connect gate="G$1" pin="+" pad="PLUS"/>
+<connect gate="G$1" pin="-" pad="NEG"/>
 </connects>
 <technologies>
 <technology name=""/>
