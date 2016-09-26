@@ -1811,11 +1811,11 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="16.764" y="28.956" size="0.7" layer="25" ratio="10"/>
 <attribute name="VALUE" x="16.764" y="27.178" size="0.7" layer="27"/>
 </element>
-<element name="R6" library="resistor" package="R0603" value="2M" x="14" y="10" smashed="yes" rot="R270">
+<element name="R6" library="resistor" package="R0603" value="301K" x="14" y="10" smashed="yes" rot="R270">
 <attribute name="NAME" x="15" y="8" size="0.7" layer="25" rot="R180"/>
 <attribute name="VALUE" x="12.095" y="10.635" size="0.7" layer="27" rot="R270"/>
 </element>
-<element name="R7" library="resistor" package="R0603" value="6.6M" x="12" y="10" smashed="yes" rot="R90">
+<element name="R7" library="resistor" package="R0603" value="1M" x="12" y="10" smashed="yes" rot="R90">
 <attribute name="NAME" x="13" y="8" size="0.7" layer="25" rot="R180"/>
 <attribute name="VALUE" x="13.905" y="9.365" size="0.7" layer="27" rot="R90"/>
 </element>

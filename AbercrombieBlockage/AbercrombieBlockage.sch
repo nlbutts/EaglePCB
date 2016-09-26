@@ -7349,7 +7349,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="C4" library="resistor" deviceset="C-US" device="C0603" value="1u"/>
 <part name="C5" library="resistor" deviceset="C-US" device="C0603" value="1u"/>
 <part name="C6" library="resistor" deviceset="C-US" device="C0603" value="5p"/>
-<part name="R2" library="resistor" deviceset="R-US_" device="R0603" value="20k"/>
+<part name="R2" library="resistor" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="D1" library="NicksParts" deviceset="BPW34" device="" technology="TH"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="R4" library="resistor" deviceset="R-US_" device="R0603" value="0"/>

@@ -7365,8 +7365,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="R5" library="resistor" deviceset="R-US_" device="R0603" value="360"/>
 <part name="TX" library="testpad" deviceset="TP" device="B1,27"/>
 <part name="GND" library="testpad" deviceset="TP" device="B1,27"/>
-<part name="R6" library="resistor" deviceset="R-US_" device="R0603" value="2M"/>
-<part name="R7" library="resistor" deviceset="R-US_" device="R0603" value="6.6M"/>
+<part name="R6" library="resistor" deviceset="R-US_" device="R0603" value="301K"/>
+<part name="R7" library="resistor" deviceset="R-US_" device="R0603" value="1M"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY14" library="supply2" deviceset="VDD" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>

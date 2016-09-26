@@ -1737,7 +1737,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="DIGIKEY_30_OHM" value="RHM30BGCT-ND" x="7" y="26" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="DIGIKEY_50_OHM" value="541-2477-1-ND" x="7" y="26" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="R2" library="resistor" package="R0603" value="20k" x="19" y="13" smashed="yes" rot="MR270">
+<element name="R2" library="resistor" package="R0603" value="1k" x="19" y="13" smashed="yes" rot="MR270">
 <attribute name="NAME" x="19.868" y="17.064" size="1.016" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="20.905" y="13.635" size="1.27" layer="28" rot="MR270"/>
 </element>
