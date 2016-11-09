@@ -350,10 +350,10 @@ UsedLibrary="c:/projects/eaglepcb/NicksParts.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="3 68 1910 1007"
+Loc="40 104 1621 923"
 State=2
 Number=0
 
 [Desktop]
-Screen="3840 1080"
+Screen="5440 1088"
 Window="Win_1"
